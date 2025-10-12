@@ -96,3 +96,6 @@ out/
 
 # i18n
 .i18n-cache/
+
+# Guide output folders
+guide/*/output/
