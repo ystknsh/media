@@ -49,9 +49,11 @@
           "### 1. アプリケーションのダウンロード",
           "",
           "- Go to `mulmocast.com`",
+          "- Locate Mac app download section",
           "- Download Mac app",
           "",
           "- `mulmocast.com` にアクセス",
+          "- 「Mac用アプリをダウンロード」セクションを見つける",
           "- Mac用アプリをダウンロード"
         ]
       }
@@ -63,7 +65,7 @@
         "type": "markdown",
         "markdown": [
           "### 2. Install Application - Drag MulmoCast.app to Applications folder",
-          "### 2. アプリケーションをインストール - ulmoCast.appをアプリケーションフォルダにドラッグ",
+          "### 2. アプリケーションをインストール - MulmoCast.appをアプリケーションフォルダにドラッグ",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide00_script_mac/images/00_00_download_folder_drag.png?raw=true\" alt=\"Drag to Applications\" width=\"80%\">",
