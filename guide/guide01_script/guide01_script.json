@@ -35,7 +35,9 @@
           "1. \"Welcome to MulmoCast\" setup screen",
           "1. \"Welcome to MulmoCast\"セットアップ画面",
           "",
-          "![Welcome Screen](https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/01_34_welcome_screen.png?raw=true)"
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/01_34_welcome_screen.png?raw=true\" alt=\"Welcome Screen\" width=\"80%\">",
+          "</div>"
         ]
       }
     },
@@ -54,7 +56,9 @@
           "3. Click **Next**",
           "3. **Next**をクリック",
           "",
-          "![Language Selection](https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/01_49_language_selection.png?raw=true)"
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/01_49_language_selection.png?raw=true\" alt=\"Language Selection\" width=\"80%\">",
+          "</div>"
         ]
       }
     },
@@ -100,7 +104,27 @@
           "2. サンプルプロジェクトが自動生成:",
           "   \"Intro 1. Welcome to Mulmocast!!\"",
           "",
-          "![Create New Button](https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/02_02_create_new_button.png?raw=true)"
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/02_02_create_new_button.png?raw=true\" alt=\"Create New Button\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "いよいよ最初の動画を作成してみましょう。メインダッシュボードで「+ Create New」ボタンをクリックします。これにより「Intro 1. Welcome to マルモキャスト!!」というタイトルのサンプルプロジェクトが自動生成されます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 4. Creating Your First Video",
+          "## 4. 最初の動画を作成",
+          "",
+          "### Create new project",
+          "### 新しいプロジェクトを作成",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/02_02_create_new_button.png?raw=true\" alt=\"Create New Button\" width=\"80%\">",
+          "</div>"
         ]
       }
     },
@@ -119,7 +143,9 @@
           "4. Click **Generate Video** button",
           "4. **Generate Video**ボタンをクリック",
           "",
-          "![Generate Video Button](https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/02_07_generate_video_button.png?raw=true)"
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/02_07_generate_video_button.png?raw=true\" alt=\"Generate Video Button\" width=\"80%\">",
+          "</div>"
         ]
       }
     },
@@ -138,7 +164,9 @@
           "6. Video preview appears when complete",
           "6. 完了時に動画プレビューが表示",
           "",
-          "![Video Preview](https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/03_02_video_preview.png?raw=true)"
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/03_02_video_preview.png?raw=true\" alt=\"Video Preview\" width=\"80%\">",
+          "</div>"
         ]
       }
     },

@@ -1,6 +1,7 @@
 {
   "$mulmocast": {
-    "version": "1.1"
+    "version": "1.1",
+    "credit": "closing"
   },
   "canvasSize": {
     "width": 1280,
@@ -81,8 +82,8 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "- Select **Keep** from dropdown",
-          "- ドロップダウンから**保存**を選択",
+          "### Select **Keep** from dropdown",
+          "### ドロップダウンから**保存**を選択",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide00_script/images/00_06_keep_dropdown.png?raw=true\" alt=\"Keep Dropdown\" width=\"80%\">",
