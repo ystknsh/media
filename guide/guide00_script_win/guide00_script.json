@@ -20,6 +20,14 @@
       }
     }
   },
+  "movieParams": {
+    "provider": "mock",
+    "model": "",
+    "transition": {
+      "type": "fade",
+      "duration": 1
+    }
+  },
   "beats": [
     {
       "id": "title-slide",
