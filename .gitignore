@@ -99,3 +99,6 @@ out/
 
 # Guide output folders
 guide/*/output/
+
+# Guide MP4 files
+guide/**/*.mp4
