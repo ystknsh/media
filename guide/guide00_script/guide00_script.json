@@ -23,7 +23,7 @@
     {
       "id": "title-slide",
       "speaker": "Presenter",
-      "text": "MulmoCastアプリケーションマニュアルへようこそ。このガイドでは、AIで動画を生成するMulmoCastアプリケーションのダウンロード、インストール、セットアップ、使用方法について順を追って説明いたします。",
+      "text": "マルモキャストアプリケーションマニュアルへようこそ。このガイドでは、AIで動画を生成するマルモキャストアプリケーションのダウンロード、インストール、セットアップ、使用方法について順を追って説明いたします。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -42,7 +42,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "まず最初に、アプリケーションのダウンロード方法について説明します。公式のMulmoCastウェブサイトにアクセスして、Windowsアプリをダウンロードしましょう。",
+      "text": "まず最初に、アプリケーションのダウンロード方法について説明します。公式のマルモキャストウェブサイトにアクセスして、Windowsアプリをダウンロードしましょう。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -99,17 +99,28 @@
     },
     {
       "speaker": "Presenter",
-      "text": "ドロップダウンメニューから「Keep」を選択してダウンロードを続行します。さらに確認が表示されたら、「Keep anyway」を選択してファイルのダウンロードを完了させます。",
+      "text": "ドロップダウンメニューから「Keep」を選択してダウンロードを続行します。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Continue Download",
-          "### ダウンロードの続行",
+          "### Continue Download - Step 1",
+          "### ダウンロードの続行 - ステップ1",
           "",
           "6. Select **Keep** from dropdown",
           "6. ドロップダウンから**Keep**を選択",
           "",
-          "![Keep Dropdown](https://github.com/ystknsh/media/blob/main/guide/guide00_script/images/00_06_keep_dropdown.png?raw=true)",
+          "![Keep Dropdown](https://github.com/ystknsh/media/blob/main/guide/guide00_script/images/00_06_keep_dropdown.png?raw=true)"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "さらに確認が表示されたら、「Keep anyway」を選択してファイルのダウンロードを完了させます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Continue Download - Step 2",
+          "### ダウンロードの続行 - ステップ2",
           "",
           "7. Select **Keep anyway** if prompted",
           "7. 要求されたら**Keep anyway**を選択",
@@ -142,7 +153,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "インストーラーファイル「MulmoCast-1.0.0-rc-1-setup.exe」をダブルクリックしてインストールを開始します。",
+      "text": "インストーラーファイル「マルモキャスト-1.0.0-rc-1-setup.exe」をダブルクリックしてインストールを開始します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -183,17 +194,28 @@
     },
     {
       "speaker": "Presenter",
-      "text": "「More info」リンクをクリックして、「Run anyway」ボタンを表示させます。そして「Run anyway」をクリックしてインストールを続行します。",
+      "text": "「More info」リンクをクリックして、追加オプションを表示させます。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Bypass SmartScreen",
-          "### SmartScreenをバイパス",
+          "### Bypass SmartScreen - Step 1",
+          "### SmartScreenをバイパス - ステップ1",
           "",
           "5. Click **More info** link",
           "5. **More info**リンクをクリック",
           "",
-          "![More Info](https://github.com/ystknsh/media/blob/main/guide/guide00_script/images/00_44_more_info.png?raw=true)",
+          "![More Info](https://github.com/ystknsh/media/blob/main/guide/guide00_script/images/00_44_more_info.png?raw=true)"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "「Run anyway」ボタンが表示されたら、これをクリックしてインストールを続行します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Bypass SmartScreen - Step 2",
+          "### SmartScreenをバイパス - ステップ2",
           "",
           "6. Click **Run anyway** button",
           "6. **Run anyway**ボタンをクリック",
@@ -204,7 +226,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "インストールプログレスバーが表示されます。完了すると、MulmoCastアプリケーションが自動的に起動します。",
+      "text": "インストールプログレスバーが表示されます。完了すると、マルモキャストアプリケーションが自動的に起動します。",
       "image": {
         "type": "markdown",
         "markdown": [
