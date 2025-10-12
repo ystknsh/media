@@ -41,7 +41,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "まず最初に、アプリケーションのダウンロード方法について説明します。公式のマルモキャストウェブサイト「mulmocast.com」にアクセスして、Mac用アプリをダウンロードします。",
+      "text": "まず最初に、アプリケーションのダウンロード方法について説明します。公式のマルモキャストウェブサイトにアクセスして、Mac用アプリをダウンロードします。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -60,7 +60,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "zipファイルのダウンロードが完了すると、自動的に展開されてFinderのダウンロードフォルダにMulmoCast.appが表示されます。このアプリケーションをアプリケーションフォルダにドラッグアンドドロップしてインストールを完了します。",
+      "text": "zipファイルのダウンロードが完了すると、自動的に展開されてFinderのダウンロードフォルダにマルモキャスト.appが表示されます。このアプリケーションをアプリケーションフォルダにドラッグアンドドロップしてインストールを完了します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -75,12 +75,12 @@
     },
     {
       "speaker": "Presenter",
-      "text": "インストールが完了したら、アプリケーションフォルダまたはLaunchpadからマルモキャストを起動できます。初回起動時に「開く」を選択してアプリケーションを実行してください。",
+      "text": "インストールが完了したら、アプリケーションフォルダまたはLaunchpadからマルモキャストを起動できます。初回起動時の場合は「開く」を選択してアプリケーションを実行してください。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### 3. Launch Application - Click \"Open\" when prompted",
-          "### 3. アプリケーション起動 - 確認画面で「開く」をクリック",
+          "### 3. Launch Application - Click \"Open\" when prompted (first launch only)",
+          "### 3. アプリケーション起動 - 確認画面で「開く」をクリック（初回起動時のみ）",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide00_script_mac/images/00_02_app_open.png?raw=true\" alt=\"App Open\" width=\"80%\">",
