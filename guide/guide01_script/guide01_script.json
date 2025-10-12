@@ -1,0 +1,225 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "canvasSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "lang": "ja",
+  "title": "MulmoCast セットアップと初回動画作成",
+  "description": "MulmoCastアプリケーションの初期セットアップから最初の動画作成までを説明するガイド",
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "voiceId": "nova",
+        "displayName": {
+          "ja": "ナレーター"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "次に、初期セットアップを行います。「Welcome to MulmoCast」セットアップ画面が表示されます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 3. Initial Setup",
+          "## 3. 初期セットアップ",
+          "",
+          "### Welcome screen",
+          "### ウェルカム画面",
+          "",
+          "1. \"Welcome to MulmoCast\" setup screen",
+          "1. \"Welcome to MulmoCast\"セットアップ画面",
+          "",
+          "![Welcome Screen](https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/01_34_welcome_screen.png?raw=true)"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "お好みの表示言語をドロップダウンメニューから選択して、「Next」をクリックします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Language Selection",
+          "### 言語選択",
+          "",
+          "2. Select preferred **Display Language**",
+          "2. お好みの**表示言語**を選択",
+          "",
+          "3. Click **Next**",
+          "3. **Next**をクリック",
+          "",
+          "![Language Selection](https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/01_49_language_selection.png?raw=true)"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "OpenAI APIキーの入力を求められます。テキストフィールドにキーを貼り付けて、「Next」をクリックします。「Setup Complete!」メッセージが表示されたら、「Complete Setup」をクリックしてメインダッシュボードに移動します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### API Key Setup",
+          "### APIキーセットアップ",
+          "",
+          "4. Enter OpenAI API Key",
+          "4. OpenAI APIキーを入力",
+          "",
+          "5. Click **Next**",
+          "5. **Next**をクリック",
+          "",
+          "6. \"Setup Complete!\" message appears",
+          "6. \"Setup Complete!\"メッセージが表示",
+          "",
+          "7. Click **Complete Setup**",
+          "7. **Complete Setup**をクリック"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "いよいよ最初の動画を作成してみましょう。メインダッシュボードで「+ Create New」ボタンをクリックします。これにより「Intro 1. Welcome to Mulmocast!!」というタイトルのサンプルプロジェクトが自動生成されます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 4. Creating Your First Video",
+          "## 4. 最初の動画を作成",
+          "",
+          "### Create new project",
+          "### 新しいプロジェクトを作成",
+          "",
+          "1. Click **+ Create New** button",
+          "1. **+ Create New**ボタンをクリック",
+          "",
+          "2. Sample project is generated automatically:",
+          "2. サンプルプロジェクトが自動生成:",
+          "   \"Intro 1. Welcome to Mulmocast!!\"",
+          "",
+          "![Create New Button](https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/02_02_create_new_button.png?raw=true)"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "プロジェクト画面で、右側の「Create Video / Watch Video」パネルを見つけて、「Generate Video」ボタンをクリックします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Generate video",
+          "### 動画を生成",
+          "",
+          "3. Find \"Create Video / Watch Video\" panel",
+          "3. \"Create Video / Watch Video\"パネルを見つける",
+          "",
+          "4. Click **Generate Video** button",
+          "4. **Generate Video**ボタンをクリック",
+          "",
+          "![Generate Video Button](https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/02_07_generate_video_button.png?raw=true)"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "生成プロセスが開始され、「Debug Logs」エリアにステータスが表示されます。コンテンツの生成が正常に完了すると、動画プレビューが表示されます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Generation process",
+          "### 生成プロセス",
+          "",
+          "5. Generation starts with status in Debug Logs",
+          "5. Debug Logsにステータス表示で生成開始",
+          "",
+          "6. Video preview appears when complete",
+          "6. 完了時に動画プレビューが表示",
+          "",
+          "![Video Preview](https://github.com/ystknsh/media/blob/main/guide/guide01_script/images/03_02_video_preview.png?raw=true)"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "「Play」ボタンをクリックして生成された動画を視聴できます。動画にはAI生成画像とナレーションが含まれています。動画をダウンロードするには、動画プレーヤーの下にある「Download MP4」ボタンをクリックします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 5. Watching and Downloading",
+          "## 5. 視聴とダウンロード",
+          "",
+          "### Watch the video",
+          "### 動画を視聴",
+          "",
+          "7. Click **Play** button to watch",
+          "7. **Play**ボタンをクリックして視聴",
+          "",
+          "- AI-generated images / AI生成画像",
+          "- Voiceover narration / ナレーション音声",
+          "",
+          "### Download the video",
+          "### 動画をダウンロード",
+          "",
+          "8. Click **Download MP4** button",
+          "8. **Download MP4**ボタンをクリック"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "最後に、プロジェクト管理について説明します。左上の「Back」ボタンをクリックしてメインダッシュボードに戻ることができます。「+ Create New」ボタンを再度クリックすると、新しいサンプルプロジェクトが作成されます。最初の3つのプロジェクトは学習に役立つように事前入力されたサンプルです。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 6. Managing Projects",
+          "## 6. プロジェクト管理",
+          "",
+          "### Navigate back",
+          "### 戻る操作",
+          "",
+          "1. Click **Back** button (top-left)",
+          "1. **Back**ボタンをクリック（左上）",
+          "",
+          "### Create more projects",
+          "### さらにプロジェクトを作成",
+          "",
+          "2. **+ Create New** creates sample projects",
+          "2. **+ Create New**でサンプルプロジェクト作成",
+          "",
+          "- First 3: Pre-filled samples for learning",
+          "- 最初の3つ：学習用の事前入力サンプル",
+          "",
+          "- 4th project: Blank **(untitled)** project",
+          "- 4番目：空の**(untitled)**プロジェクト"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "これでMulmoCastアプリケーションの基本的な使用方法の説明は完了です。ダウンロードからインストール、セットアップ、そして最初の動画作成まで、一通りの流れをご理解いただけたと思います。MulmoCastを使って、素晴らしいAI動画を作成してください。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## Summary / まとめ",
+          "",
+          "### What we covered / 学習内容",
+          "",
+          "✅ **Download** / ダウンロード",
+          "✅ **Installation** / インストール",
+          "✅ **Initial Setup** / 初期セットアップ",
+          "✅ **First Video Creation** / 最初の動画作成",
+          "✅ **Project Management** / プロジェクト管理",
+          "",
+          "### Ready to create AI videos!",
+          "### AI動画作成の準備完了！",
+          "",
+          "**Happy creating with MulmoCast!**",
+          "**MulmoCastで素晴らしい作品を！**"
+        ]
+      }
+    }
+  ]
+}
