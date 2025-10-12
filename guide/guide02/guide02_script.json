@@ -1,0 +1,578 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "canvasSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "lang": "ja",
+  "title": "MulmoCast: 高度な動画作成マニュアル",
+  "description": "ブランクプロジェクトからの動画作成、スタイルテンプレートの適用、キャラクター設定、個別アセット生成、リップシンクなどの高度な機能とトラブルシューティングを詳細に解説するガイド",
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "voiceId": "nova",
+        "displayName": {
+          "ja": "ナレーター"
+        }
+      }
+    }
+  },
+  "movieParams": {
+    "provider": "mock",
+    "model": "",
+    "transition": {
+      "type": "fade",
+      "duration": 1
+    }
+  },
+  "beats": [
+    {
+      "id": "title-slide",
+      "speaker": "Presenter",
+      "text": "マルモキャスト高度な動画作成マニュアルへようこそ。このガイドでは、ブランクプロジェクトからの動画作成、スタイルテンプレートの適用、キャラクター設定、個別アセット生成、リップシンクなどの高度な機能の有効化、そして一般的なエラーのトラブルシューティングについて詳細に解説いたします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "# MulmoCast: Advanced Video Creation Manual",
+          "# MulmoCast: 高度な動画作成マニュアル",
+          "",
+          "## Comprehensive Guide from Blank Project to Advanced Features",
+          "## ブランクプロジェクトから高度な機能まで包括的ガイド",
+          "",
+          "- Style Templates / スタイルテンプレート",
+          "- Character Setup / キャラクター設定",
+          "- Lip Sync Features / リップシンク機能",
+          "- Troubleshooting / トラブルシューティング"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "まず、プロジェクトの初期化について説明します。新しいブランクプロジェクトの作成方法から始めます。メインダッシュボードから、左上の「プラス クリエイト ニュー」ボタンをクリックします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 1. Project Initialization",
+          "## 1. プロジェクトの初期化",
+          "",
+          "### Create a New Blank Project",
+          "### 新しいブランクプロジェクトの作成",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/create_blank_project.png?raw=true\" alt=\"Create Blank Project\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "これは4番目以降のプロジェクトのため、最初のチュートリアルプロジェクトとは異なり、ブランクの「アンタイトル」プロジェクトとして開きます。続いて、スタイルテンプレートの適用について説明します。スタイルテンプレートは、音声、画像スタイル、トランジションの設定を素早く入力し、一貫したルック・アンド・フィールを確保します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Blank Project vs Tutorial Project",
+          "### ブランクプロジェクト vs チュートリアルプロジェクト",
+          "",
+          "- From main Dashboard, click [+ Create New] button (top-left)",
+          "- 4th project onwards: opens as blank \"untitled\" project",
+          "- Different from initial tutorial projects with sample content",
+          "",
+          "- メインダッシュボードから [+ Create New] ボタンをクリック（左上）",
+          "- 4番目以降のプロジェクト：ブランクの「untitled」プロジェクトとして開く",
+          "- サンプルコンテンツ付きの初期チュートリアルプロジェクトとは異なる",
+          "",
+          "## 2. Applying a Style Template",
+          "## 2. スタイルテンプレートの適用"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "スタイルタブへの移動方法を説明します。「クリエイト ビデオ ストーリー」パネルで、「スタイル」タブをクリックします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Navigate to the Style Tab",
+          "### スタイルタブへの移動",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/navigate_style_tab.png?raw=true\" alt=\"Navigate to Style Tab\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "事前定義されたスタイルの適用方法を説明します。「スタイル テンプレート」セクションで、ドロップダウンメニューからテンプレートを選択します。動画では「プレゼンテーション バイ アニ」が選択されています。「アプライ スタイル」ボタンをクリックします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Apply a Pre-defined Style",
+          "### 事前定義されたスタイルの適用",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/apply_style_template.png?raw=true\" alt=\"Apply Style Template\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "重要な操作の詳細として、スタイルを適用すると、下部の複数の設定が自動的に入力されます。これには「スピーチ パラメーター」「イメージ パラメーター」「オーディオ パラメーター」が含まれます。「アニ」キャラクタースタイルに関連する情報でフィールドが埋められるのを確認できます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Style Application Process",
+          "### スタイル適用プロセス",
+          "",
+          "- Under Style template section, select from dropdown",
+          "- In video: \"Presentation by Ani\" is chosen",
+          "- Click [Apply Style] button",
+          "",
+          "- Style template セクションでドロップダウンから選択",
+          "- 動画では「Presentation by Ani」を選択",
+          "- [Apply Style] ボタンをクリック",
+          "",
+          "### Key Action Details / 重要な操作詳細",
+          "",
+          "**Automatic Population**: Speech Parameters, Image Parameters, Audio Parameters",
+          "**自動入力**: スピーチパラメーター、イメージパラメーター、オーディオパラメーター",
+          "",
+          "Fields fill with \"Ani\" character style information",
+          "「Ani」キャラクタースタイル情報でフィールドが埋められる"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "一貫したキャラクターの設定について説明します。異なるシーン間で同じキャラクターの外観を維持するには、まず「キャラクター」タブで定義する必要があります。「キャラクター」タブをクリックします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 3. Setting Up a Consistent Character",
+          "## 3. 一貫したキャラクターの設定",
+          "",
+          "### Navigate to the Character Tab",
+          "### キャラクタータブへの移動",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/navigate_character_tab.png?raw=true\" alt=\"Navigate to Character Tab\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "新しいキャラクターの追加方法を説明します。「イメージ リファレンス キー」では、キャラクターの短い覚えやすいキーを入力します（例：「アニ」）。このキーは後で特定のシーンにこのキャラクターを割り当てるために使用されます。「イメージ ジェネレーション プロンプト」では、キャラクターの参照画像への直接ユーアールエルを提供します。この画像はエーアイが視覚的な一貫性を保つために使用されます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Add a New Character",
+          "### 新しいキャラクターの追加",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/add_new_character.png?raw=true\" alt=\"Add New Character\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "「アド」ボタンをクリックします。参照画像がプレビューボックスに表示されます。続いて、動画をシーンごとに構築する「ビート編集」について説明します。これで、個々のシーン（ビート）にコンテンツを入力していきます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Character Setup Details",
+          "### キャラクター設定詳細",
+          "",
+          "- **Image-Reference Key**: Short, memorable key (e.g., `ani`)",
+          "- **Image Generation Prompt**: Direct URL to reference image",
+          "- Click [Add] button → Reference image appears in preview",
+          "",
+          "- **Image-Reference Key**: 短い覚えやすいキー（例：`ani`）",
+          "- **Image Generation Prompt**: 参照画像への直接URL",
+          "- [Add] ボタンクリック → 参照画像がプレビューに表示",
+          "",
+          "## 4. Building the Video Scene by Scene (Beat Editing)",
+          "## 4. 動画をシーンごとに構築（ビート編集）",
+          "",
+          "Now populate individual scenes (Beats) with content",
+          "個々のシーン（ビート）にコンテンツを入力"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "ビートタブに戻る方法を説明します。「ビート」タブをクリックして、メインストーリーエディターに戻ります。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Return to the Beat Tab",
+          "### ビートタブに戻る",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/return_beat_tab.png?raw=true\" alt=\"Return to Beat Tab\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "ビート1の入力方法を説明します。「スクリプト」では、「ビート1」の大きなテキストボックスに、ナレーションスクリプトを入力またはペーストします（例：「ヘイ ゼア！ワッツ アップ？アイム ジャスト チリング…」）。「イメージ プロンプト」では、「イメージ ジェネレーション プロンプト」ボックスに、このシーンで表示したいビジュアルを記述します（例：「イン ザ ビューティフル フォレスト」）。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Populate Beat 1",
+          "### ビート1の入力",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/populate_beat1.png?raw=true\" alt=\"Populate Beat 1\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "「キャラクターのアサイン」では、プロンプトの下で、作成したキャラクターキー（「アニ」）の隣にあるボックスをチェックして、このシーンをキャラクターにリンクします。オプションとして、単一画像の生成について説明します。動画全体を生成する前に画像をプレビューするには、「イメージ ジェネレーション プロンプト」ボックスの右にある魔法の杖アイコン「ジェネレート イメージ」をクリックします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Beat 1 Content Details",
+          "### ビート1コンテンツ詳細",
+          "",
+          "- **Script**: Type/paste narration in Beat 1 text box",
+          "  - Example: \"Hey there! What's up? I'm just chilling...\"",
+          "",
+          "- **Image Prompt**: Describe visual in Image Generation Prompt box",
+          "  - Example: \"in the beautiful forest\"",
+          "",
+          "- **Assign Character**: Check box next to character key (`ani`)",
+          "",
+          "- **スクリプト**: ビート1テキストボックスにナレーション入力",
+          "  - 例：「Hey there! What's up? I'm just chilling...」",
+          "",
+          "- **画像プロンプト**: Image Generation Promptボックスにビジュアル記述",
+          "  - 例：「in the beautiful forest」",
+          "",
+          "- **キャラクター割り当て**: キャラクターキー（`ani`）の隣のボックスをチェック"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "「イメージ プレビュー」エリアに「ジェネレーティング…」と表示され、その後結果が表示されます。続いて、高度な機能、リップシンクの設定について説明します。リップシンクには追加のエーピーアイキーが必要です。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Generate a Single Image (Optional)",
+          "### 単一画像の生成（オプション）",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/generate_single_image.png?raw=true\" alt=\"Generate Single Image\" width=\"80%\">",
+          "</div>",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/image_generation_result.png?raw=true\" alt=\"Image Generation Result\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "設定を開く方法を説明します。アプリケーションの右上にある「セッティングス」アイコン（ギアシンボル）をクリックします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 5. Configuring Advanced Features (Lip Sync)",
+          "## 5. 高度な機能の設定（リップシンク）",
+          "",
+          "### Open Settings",
+          "### 設定を開く",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/open_settings.png?raw=true\" alt=\"Open Settings\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "レプリケート エーピーアイトークンの追加方法を説明します。セッティングスポップアップで、「エーピーアイキー セッティングス」セクションをクリックして展開します。「レプリケート エーピーアイトークン」フィールドを見つけて、キーを入力します。セッティングスウィンドウを閉じます。「セッティングス セーブド」通知が短時間表示されます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Add Replicate API Token",
+          "### Replicate APIトークンの追加",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/add_replicate_api_token.png?raw=true\" alt=\"Add Replicate API Token\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "ユーザーがつまずきやすいポイントとして、有効なレプリケート エーピーアイトークンがないと、リップシンク機能は失敗します。これはオープンエーアイとは別のサービスで、彼らのウェブサイトからキーを取得する必要があります。続いて、高度な機能を使用した追加ビートの入力について説明します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### API Token Setup Process",
+          "### APIトークン設定プロセス",
+          "",
+          "- In Settings popup, expand API Key Settings section",
+          "- Locate Replicate API Token field and enter key",
+          "- Close settings → \"Settings saved\" notification appears",
+          "",
+          "- セッティングスポップアップでAPI Key Settings セクションを展開",
+          "- Replicate API Token フィールドを見つけてキーを入力",
+          "- 設定を閉じる → 「Settings saved」通知が表示",
+          "",
+          "⚠️ **Potential User Pain Point**:",
+          "⚠️ **ユーザーがつまずきやすいポイント**:",
+          "",
+          "Lip sync fails without valid Replicate API Token",
+          "有効なReplicate APIトークンがないとリップシンクが失敗",
+          "",
+          "Separate service from OpenAI - acquire key from their website",
+          "OpenAIとは別サービス - 彼らのウェブサイトからキー取得が必要"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "ビート2へのコンテンツ追加方法を説明します。「ビート2」までスクロールダウンします。2番目のシーンのスクリプトを入力します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 6. Populating Additional Beats with Advanced Features",
+          "## 6. 高度な機能を使用した追加ビートの入力",
+          "",
+          "### Add Content to Beat 2",
+          "### ビート2へのコンテンツ追加",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/add_content_beat2.png?raw=true\" alt=\"Add Content to Beat 2\" width=\"80%\">",
+          "</div>",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/enter_script_beat2.png?raw=true\" alt=\"Enter Script for Beat 2\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "2番目のシーンの「イメージ ジェネレーション プロンプト」を入力します（例：「ウェア サン グラシーズ、ビーチ サイド、シッティング オン チェア」）。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Enter Image Prompt for Beat 2",
+          "### ビート2の画像プロンプト入力",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/enter_image_prompt_beat2.png?raw=true\" alt=\"Enter Image Prompt for Beat 2\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "リップシンクの有効化方法を説明します。「ビート2」で、「リップシンク」とラベル付けされたボックスをチェックします。これにより、アプリケーションはこの特定のビートのオーディオに合わせて口の動きをアニメーション化したビデオクリップを生成するよう指示されます。重要な操作の詳細として、「リップシンク」が有効化されると、そのビートの「イメージ ジェネレーション」は最初に静止画像を生成し、リップシンクビデオは最終的な「ジェネレート ビデオ」ステップで生成されます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Enable Lip Sync",
+          "### リップシンクの有効化",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/enable_lip_sync.png?raw=true\" alt=\"Enable Lip Sync\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "「ビート2」で「リップシンク」ボックスをチェックすることで、アプリケーションがこの特定のビートのオーディオに合わせて口の動きをアニメーション化したビデオクリップを生成します。「リップシンク」が有効な場合、そのビートの「イメージ ジェネレーション」は最初に静止画像を生成し、リップシンクビデオは「ジェネレート ビデオ」ステップで作成されます。続いて、最終動画生成とトラブルシューティングについて説明します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Lip Sync Process Details",
+          "### リップシンクプロセス詳細",
+          "",
+          "- For Beat 2, check the box labeled `LipSync`",
+          "- Generates video clip with animated mouth movements",
+          "- Matches audio for this specific beat",
+          "",
+          "- ビート2で `LipSync` とラベル付けされたボックスをチェック",
+          "- 口の動きをアニメーション化したビデオクリップを生成",
+          "- この特定のビートのオーディオに合わせる",
+          "",
+          "### Key Action Details / 重要な操作詳細",
+          "",
+          "When LipSync enabled:",
+          "リップシンク有効時:",
+          "",
+          "1. Image Generation produces static image first",
+          "2. Lip-sync video generated during final Generate Video step",
+          "",
+          "1. Image Generation が最初に静止画像を生成",
+          "2. リップシンクビデオは最終 Generate Video ステップで生成"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "フル動画の生成方法を説明します。右側パネルのメイン「ジェネレート ビデオ」ボタンをクリックします。オーディオ、画像、リップシンクビデオの生成プロセスが開始されます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 7. Final Video Generation and Troubleshooting",
+          "## 7. 最終動画生成とトラブルシューティング",
+          "",
+          "### Generate the Full Video",
+          "### フル動画の生成",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/generate_full_video.png?raw=true\" alt=\"Generate Full Video\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "生成エラーの処理方法を説明します。ユーザーがつまずきやすいポイントとして、エーピーアイキーが欠落していたり間違っていたりすると、エラーが発生します。動画では、右下に2つの赤いエラーメッセージが表示されます：「フェイルド トゥ ジェネレート コンテンツ」と「アン エラー オカード ウィズ リップ シンク [レプリケート]」。これは、生成を開始する前にレプリケート エーピーアイキーが正しく入力されていなかったことを示しています。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Handle Generation Errors",
+          "### 生成エラーの処理",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/handle_generation_errors.png?raw=true\" alt=\"Handle Generation Errors\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "修正と再生成について説明します。これを修正するために、ユーザーは「ジェネレート ビデオ」を再クリックします。システムは既に生成されたアセットを再利用し、失敗したプロセスのみを再試行します。最終動画が正常に生成され、プレビューウィンドウに表示されます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Error Details",
+          "### エラー詳細",
+          "",
+          "⚠️ **Potential User Pain Point**:",
+          "⚠️ **ユーザーがつまずきやすいポイント**:",
+          "",
+          "If API key missing/incorrect → Error occurs",
+          "APIキーが欠落/間違い → エラー発生",
+          "",
+          "Red error messages appear (bottom right):",
+          "赤いエラーメッセージ表示（右下）:",
+          "",
+          "- \"Failed to generate contents\"",
+          "- \"An error occurred with lip sync [Replicate]\"",
+          "",
+          "Indicates: Replicate API key not entered correctly",
+          "示すもの: Replicate APIキーが正しく入力されていない",
+          "",
+          "### Correct and Re-Generate",
+          "### 修正と再生成"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "修正プロセスについて詳しく説明します。ユーザーは「ジェネレート ビデオ」を再クリックして問題を修正します。システムは既に生成されたアセットを再利用し、失敗したプロセスのみを再試行します。最終動画が正常に生成され、プレビューウィンドウに表示されます。続いて、プレビューとダウンロードについて説明します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Re-Generation Process",
+          "### 再生成プロセス",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/correct_regenerate.png?raw=true\" alt=\"Correct and Re-Generate\" width=\"80%\">",
+          "</div>",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/final_video_generated.png?raw=true\" alt=\"Final Video Generated\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "最終動画の再生と確認方法を説明します。プレビュープレーヤーの「プレイ」ボタンをクリックして最終動画を視聴します。ビート1の静止画像とビート2のリップシンクビデオクリップを見ることができます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "## 8. Preview and Download",
+          "## 8. プレビューとダウンロード",
+          "",
+          "### Play and Verify the Final Video",
+          "### 最終動画の再生と確認",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/play_verify_video.png?raw=true\" alt=\"Play and Verify Final Video\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "動画のダウンロード方法を説明します。「ダウンロード エムピーフォー」ボタンをクリックします。ファイル保存ダイアログが表示されます。コンピュータ上の場所を選択し、「セーブ」をクリックして、完成した動画ファイルをダウンロードします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Download the Video",
+          "### 動画のダウンロード",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/download_video.png?raw=true\" alt=\"Download Video\" width=\"80%\">",
+          "</div>",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/file_saving_dialog.png?raw=true\" alt=\"File Saving Dialog\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "最終動画の確認と保存プロセスをまとめます。プレビュープレーヤーの「プレイ」ボタンで最終動画を視聴し、ビート1の静止画像とビート2のリップシンクビデオクリップを確認できます。「ダウンロード エムピーフォー」ボタンをクリックしてファイル保存ダイアログを開き、場所を選択して「セーブ」をクリックすることで完成した動画ファイルをダウンロードできます。以上で、マルモキャストを使った高度な動画作成の操作が完了です。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Complete Workflow Summary",
+          "### 完全ワークフロー要約",
+          "",
+          "1. **Play and Verify**: Click [▶ Play] in preview player",
+          "   - View static image for Beat 1",
+          "   - View lip-synced video clip for Beat 2",
+          "",
+          "2. **Download**: Click [Download MP4] button",
+          "   - File-saving dialog appears",
+          "   - Choose location and click [Save]",
+          "",
+          "1. **再生と確認**: プレビュープレーヤーで [▶ Play] をクリック",
+          "   - ビート1の静止画像を表示",
+          "   - ビート2のリップシンクビデオクリップを表示",
+          "",
+          "2. **ダウンロード**: [Download MP4] ボタンをクリック",
+          "   - ファイル保存ダイアログが表示",
+          "   - 場所を選択して [Save] をクリック",
+          "",
+          "## ✅ Advanced Features Complete!",
+          "## ✅ 高度な機能操作完了！",
+          "",
+          "Advanced video creation workflow with MulmoCast is now complete.",
+          "MulmoCastを使った高度な動画作成ワークフローが完了しました。"
+        ]
+      }
+    }
+  ]
+}
