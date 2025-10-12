@@ -138,27 +138,6 @@
     },
     {
       "speaker": "Presenter",
-      "text": "「ワッツ ネクスト？」の項目で、このアプリケーションでできることの概要、スクリプト作成、画像・動画・音声の自動生成などが確認できます。右下の「コンプリート セットアップ」ボタンをクリックして、ダッシュボード画面に進みます。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### What's Next - Application Overview",
-          "### What's Next - アプリケーション概要",
-          "",
-          "- Green checkmark with \"Setup Complete!\" message",
-          "- \"What's next?\" shows app capabilities overview",
-          "- Script creation, automatic image/video/audio generation",
-          "- Click [Complete Setup] to proceed to dashboard",
-          "",
-          "- 緑色チェックマークと「Setup Complete!」表示",
-          "- 「What's next?」でアプリ機能概要を確認",
-          "- スクリプト作成、画像・動画・音声の自動生成",
-          "- [Complete Setup] をクリックしてダッシュボードへ"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
       "text": "続いて、サンプルプロジェクトによる動画生成について説明します。ダッシュボード画面から、あらかじめ用意されているサンプルプロジェクトを使って動画を生成し、保存する手順です。まず、新規プロジェクトの作成を行います。",
       "image": {
         "type": "markdown",
@@ -253,7 +232,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "クリック後、ボタンの表示が「ワン ジェネレーティング」に変わり、動画生成プロセスが開始されます。右下のデバッグログエリアにも「ジェネレーティング オーディオ、オーディオ」「ジェネレーティング イメージ、イメージ」といった進行状況が表示されます。",
+      "text": "クリック後、動画生成プロセスが開始されます。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -262,13 +241,13 @@
           "",
           "- Click black [Generate Video] button",
           "- Button changes to \"1 Generating\"",
-          "- Debug log shows progress:",
+          "- Log shows progress:",
           "  - \"Generating Audio, Audio...\"",
           "  - \"Generating Image, Image...\"",
           "",
           "- 黒い [Generate Video] ボタンをクリック",
           "- ボタンが「1 Generating」に変化",
-          "- デバッグログに進行状況表示:",
+          "- ログに進行状況表示:",
           "  - 「Generating Audio, Audio...」",
           "  - 「Generating Image, Image...」"
         ]
@@ -372,7 +351,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "最後に、動画ファイルのダウンロードについて説明します。重要な操作場面の詳細として、プレビュー画面の下にある「ダウンロード エムピーフォー」ボタンをクリックします。",
+      "text": "最後に、動画ファイルのダウンロードについて説明します。プレビュー画面の下にある「ダウンロード エムピーフォー」ボタンをクリックします。",
       "image": {
         "type": "markdown",
         "markdown": [
