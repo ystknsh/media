@@ -49,13 +49,23 @@
     },
     {
       "speaker": "Presenter",
-      "text": "まず、初回セットアップ、オンボーディングについて説明します。アプリケーションを初めて起動した際に表示されるセットアップウィザードの設定手順です。最初にウェルカム画面と表示言語の選択を行います。",
+      "text": "まず、初回セットアップ、オンボーディングについて説明します。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "## 1. Initial Setup (Onboarding)",
-          "## 1. 初回セットアップ（オンボーディング）",
+          "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
           "",
+          "## 1. Initial Setup (Onboarding) <br> 1. 初回セットアップ（オンボーディング）",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "アプリケーションを初めて起動した際に表示されるセットアップウィザードの設定手順です。最初にウェルカム画面と表示言語の選択を行います。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
           "### Welcome Screen and Display Language Selection",
           "### ウェルカム画面と表示言語の選択",
           "",
