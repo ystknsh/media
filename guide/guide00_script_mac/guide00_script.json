@@ -36,6 +36,8 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div>",
+          "",
           "# MulmoCast Installation Guide (Mac)",
           "# MulmoCast インストールガイド (Mac版)",
           "",
@@ -43,7 +45,8 @@
           "## ダウンロードとインストール手順",
           "",
           "- Download / ダウンロード",
-          "- Installation / インストール"
+          "- Installation / インストール",
+          "</div>"
         ]
       }
     },
@@ -53,13 +56,18 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### 1. Downloading the Application",
           "### 1. アプリケーションのダウンロード",
+          "</div>",
           "",
+          "English",
           "- Go to `mulmocast.com`",
           "- Locate Mac app download section",
           "- Download Mac app",
           "",
+          "日本語",
           "- `mulmocast.com` にアクセス",
           "- 「Mac用アプリをダウンロード」セクションを見つける",
           "- Mac用アプリをダウンロード"
@@ -72,8 +80,11 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### 2. Install Application - Drag MulmoCast.app to Applications folder",
           "### 2. アプリケーションをインストール - MulmoCast.appをアプリケーションフォルダにドラッグ",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide00_script_mac/images/00_00_download_folder_drag.png?raw=true\" alt=\"Drag to Applications\" width=\"80%\">",
@@ -87,8 +98,11 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### 3. Launch Application - Click \"Open\" when prompted (first launch only)",
           "### 3. アプリケーション起動 - 確認画面で「開く」をクリック（初回起動時のみ）",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide00_script_mac/images/00_02_app_open.png?raw=true\" alt=\"App Open\" width=\"80%\">",
