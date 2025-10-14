@@ -66,8 +66,10 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Welcome Screen and Display Language Selection",
           "### ウェルカム画面と表示言語の選択",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_00.png?raw=true\" alt=\"Welcome Screen\" width=\"80%\">",
@@ -81,13 +83,17 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Welcome to MulmoCast - Language Selection",
           "### Welcome to MulmoCast - 言語選択",
+          "</div>",
           "",
+          "English",
           "- \"Welcome to MulmoCast\" popup appears",
           "- Select Display Language (English shown in video)",
           "- Click [Next] button in bottom right",
           "",
+          "日本語",
           "- 「Welcome to MulmoCast」ポップアップが表示",
           "- Display Language を選択（動画では English）",
           "- 右下の [Next] ボタンをクリック"
@@ -100,8 +106,10 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### API Key Settings",
           "### APIキーの設定",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_12.png?raw=true\" alt=\"API Key Settings\" width=\"80%\">",
@@ -115,18 +123,21 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### API Key Entry Process",
           "### APIキー入力プロセス",
+          "</div>",
           "",
+          "English",
           "- Switch to \"API Key Settings\" screen",
           "- Enter your OpenAI API Key in input field",
           "- Click [Next] button after input",
+          "⚠️ **Important**: OpenAI API Key must be obtained beforehand",
           "",
+          "日本語",
           "- 「API Key Settings」画面に切り替わり",
           "- OpenAI API Key 入力フィールドにキーを入力",
           "- 入力後、右下の [Next] ボタンをクリック",
-          "",
-          "⚠️ **Important**: OpenAI API Key must be obtained beforehand",
           "⚠️ **重要**: 事前にOpenAI APIキーの取得が必要"
         ]
       }
@@ -137,8 +148,10 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Setup Complete",
           "### セットアップの完了",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_16.png?raw=true\" alt=\"Setup Complete\" width=\"80%\">",
@@ -148,15 +161,27 @@
     },
     {
       "speaker": "Presenter",
-      "text": "続いて、サンプルプロジェクトによる動画生成について説明します。ダッシュボード画面から、あらかじめ用意されているサンプルプロジェクトを使って動画を生成し、保存する手順です。まず、新規プロジェクトの作成を行います。",
+      "text": "続いて、サンプルプロジェクトによる動画生成について説明します。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "## 2. Sample Project Video Generation",
-          "## 2. サンプルプロジェクトによる動画生成",
+          "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
           "",
+          "## 2. Sample Project Video Generation <br> 2. サンプルプロジェクトによる動画生成",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "ダッシュボード画面から、あらかじめ用意されているサンプルプロジェクトを使って動画を生成し、保存する手順です。まず、新規プロジェクトの作成を行います。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Creating New Project",
           "### 新規プロジェクトの作成",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_23.png?raw=true\" alt=\"Dashboard\" width=\"80%\">",
@@ -170,14 +195,18 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Dashboard - Create New Project",
           "### ホーム - 新規プロジェクト作成",
+          "</div>",
           "",
+          "English",
           "- \"Welcome to MulmoCast!\" dashboard appears",
           "- Click black [+ Create New] button in top left",
           "- For first 3 projects: sample content auto-loaded",
           "- Includes sample scripts and image generation prompts",
           "",
+          "日本語",
           "- 「マルモキャストへようこそ!」ホーム表示",
           "- 左上の黒い [+ 新規作成] ボタンをクリック",
           "- 初回〜3回目：サンプルコンテンツが自動読み込み",
@@ -191,8 +220,10 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Project Editor Screen",
           "### プロジェクト編集画面の確認",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_24.png?raw=true\" alt=\"Project Editor\" width=\"80%\">",
@@ -206,9 +237,12 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Screen Layout Overview",
           "### 画面構成のポイント",
+          "</div>",
           "",
+          "English",
           "- **Center Area (Create Video Story)**: Scene settings",
           "  - Beat 1, Beat 2... dialogue and image prompts",
           "  - Edit here to create original videos",
@@ -216,6 +250,7 @@
           "- **Right Area (Create Video / Watch Video)**: Generation controls",
           "  - Video generation button and preview area",
           "",
+          "日本語",
           "- **中央エリア (動画のストーリーを作る)**: シーン設定",
           "  - Beat 1, Beat 2... のセリフと画像プロンプト",
           "  - ここを編集してオリジナル動画を作成",
@@ -227,12 +262,14 @@
     },
     {
       "speaker": "Presenter",
-      "text": "動画の生成開始について説明します。画面右側の「ク動画を作る / 動画を見る」パネル内にある、黒い「動画生成」ボタンをクリックします。",
+      "text": "動画の生成開始について説明します。画面右側の「動画を作る / 動画を見る」パネル内にある、黒い「動画生成」ボタンをクリックします。",
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Start Video Generation",
           "### 動画の生成開始",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_30.png?raw=true\" alt=\"Generate Video\" width=\"80%\">",
@@ -246,15 +283,19 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Generation Process Started",
           "### 生成プロセス開始",
+          "</div>",
           "",
+          "English",
           "- Click black [Generate Video] button",
           "- Button changes to \"1 Generating\"",
           "- Log shows progress:",
           "  - \"Generating Audio, Audio...\"",
           "  - \"Generating Image, Image...\"",
           "",
+          "日本語",
           "- 黒い [Generate Video] ボタンをクリック",
           "- ボタンが「1 Generating」に変化",
           "- ログに進行状況表示:",
@@ -269,8 +310,10 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Generation Process Details",
           "### 生成プロセスの詳細",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_36.png?raw=true\" alt=\"Generation Process\" width=\"80%\">",
@@ -284,9 +327,12 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Automatic Processing by Beat",
           "### ビート毎の自動処理",
+          "</div>",
           "",
+          "English",
           "- **Audio Generation (Generate audio)**:",
           "  - Creates narration from dialogue text",
           "",
@@ -295,7 +341,9 @@
           "",
           "- **Progress Display**:",
           "  - Completed beats show in Image Preview",
+          "⚠️ **Note**: Generation may take several minutes",
           "",
+          "日本語",
           "- **音声生成 (Generate audio)**:",
           "  - セリフからナレーション音声を生成",
           "",
@@ -305,7 +353,6 @@
           "- **進行表示**:",
           "  - 完了したビートから Image Preview に表示",
           "",
-          "⚠️ **Note**: Generation may take several minutes",
           "⚠️ **注意**: 生成には数分かかる場合があります"
         ]
       }
@@ -316,8 +363,10 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Generation Complete and Video Preview",
           "### 生成完了と動画プレビュー",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_08.png?raw=true\" alt=\"Generation Complete\" width=\"80%\">",
@@ -331,8 +380,10 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Video Preview Available",
           "### 動画プレビュー表示",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_12.png?raw=true\" alt=\"Video Preview\" width=\"80%\">",
@@ -346,13 +397,17 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Preview and Playback",
           "### プレビューと再生",
+          "</div>",
           "",
+          "English",
           "- Green notification",
           "- Video preview appears in Create Video / Watch Video panel",
           "- Click [▶ Play] button to preview video content",
           "",
+          "日本語",
           "- 緑色通知表示",
           "- 動画を作る / 動画を見る パネルに動画プレビュー表示",
           "- [▶ P再生] ボタンクリックで動画内容確認可能"
@@ -365,8 +420,10 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Download Video File",
           "### 動画ファイルのダウンロード",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_23.png?raw=true\" alt=\"Download Button\" width=\"80%\">",
@@ -380,8 +437,10 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### File Save Dialog",
           "### ファイル保存ダイアログ",
+          "</div>",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_25.png?raw=true\" alt=\"File Save Dialog\" width=\"80%\">",
@@ -395,23 +454,23 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "### Download Process Summary",
           "### ダウンロードプロセスまとめ",
+          "</div>",
           "",
+          "English",
           "1. **Click [Download MP4] button** below preview",
           "2. **PC file save dialog opens**",
           "3. **Confirm filename and select save location**",
           "4. **Click [Save] button to download .mp4 file**",
+          "Basic video creation workflow with MulmoCast is now complete.",
           "",
+          "日本語",
           "1. **プレビュー下の [Download MP4] ボタンをクリック**",
           "2. **PCのファイル保存ダイアログが開く**",
           "3. **ファイル名を確認し保存場所を選択**",
           "4. **[保存] ボタンクリックで .mp4 ファイルをダウンロード**",
-          "",
-          "## ✅ Complete!",
-          "## ✅ 操作完了！",
-          "",
-          "Basic video creation workflow with MulmoCast is now complete.",
           "MulmoCastを使った基本的な動画作成の一連の操作が完了しました。"
         ]
       }
