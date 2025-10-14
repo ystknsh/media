@@ -264,7 +264,7 @@
           "</div>",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_36.png?raw=true\" alt=\"Generation Process\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_36.png?raw=true\" alt=\"Generation Process\" width=\"70%\">",
           "</div>"
         ]
       }
@@ -282,7 +282,7 @@
           "</div>",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_58.png?raw=true\" alt=\"Generation Process\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_58.png?raw=true\" alt=\"Generation Process\" width=\"70%\">",
           "</div>"
         ]
       }
@@ -300,7 +300,7 @@
           "</div>",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_08.png?raw=true\" alt=\"Generation Process\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_08.png?raw=true\" alt=\"Generation Process\" width=\"70%\">",
           "</div>"
         ]
       }
@@ -318,7 +318,7 @@
           "</div>",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_12.png?raw=true\" alt=\"Generation Complete\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_12.png?raw=true\" alt=\"Generation Complete\" width=\"70%\">",
           "</div>"
         ]
       }
@@ -343,7 +343,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "お使いのピーシーのファイル保存ダイアログが開きます。ファイル名を確認し、保存したい場所を選択して「保存」ボタンをクリックすると、動画ファイル、ドット・エムピーフォー形式がピーシーにダウンロードされます。",
+      "text": "お使いのピーシーのファイル保存ダイアログが開きます。ファイル名を確認し、保存したい場所を選択して「保存」ボタンをクリックすると、動画ファイル、ドット・エムピーフォー形式がピーシーにダウンロードされます。以上で、マルモキャストを使った基本的な動画作成の一連の操作は完了です。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -356,34 +356,6 @@
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_25.png?raw=true\" alt=\"File Save Dialog\" width=\"80%\">",
           "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "重要な操作手順をまとめます。プレビュー画面下の「ダウンロード エムピーフォー」ボタンをクリック、ピーシーのファイル保存ダイアログが開く、ファイル名を確認し保存場所を選択、「保存」ボタンクリックで動画ファイルがダウンロードされます。以上で、マルモキャストを使った基本的な動画作成の一連の操作は完了です。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Download Process Summary",
-          "### ダウンロードプロセスまとめ",
-          "</div>",
-          "",
-          "English",
-          "1. **Click [Download MP4] button** below preview",
-          "2. **PC file save dialog opens**",
-          "3. **Confirm filename and select save location**",
-          "4. **Click [Save] button to download .mp4 file**",
-          "Basic video creation workflow with MulmoCast is now complete.",
-          "",
-          "日本語",
-          "1. **プレビュー下の [Download MP4] ボタンをクリック**",
-          "2. **PCのファイル保存ダイアログが開く**",
-          "3. **ファイル名を確認し保存場所を選択**",
-          "4. **[保存] ボタンクリックで .mp4 ファイルをダウンロード**",
-          "MulmoCastを使った基本的な動画作成の一連の操作が完了しました。"
         ]
       }
     }
