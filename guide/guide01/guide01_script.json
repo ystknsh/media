@@ -80,7 +80,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "「マルモキャストへようこそ」というタイトルのポップアップが表示されます。ディスプレイ ランゲージという項目で、アプリケーションの表示言語を選択します。画像では「English」が選択されています。内容を確認後、右下のネクストボタンをクリックします。",
+      "text": "「マルモキャストへようこそ」というタイトルのポップアップが表示されます。ディスプレイ ランゲージという項目で、アプリケーションの表示言語を選択します。画像では「English」が選択されています。内容を確認後、右下の次へをクリックします。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -92,13 +92,13 @@
           "",
           "English",
           "- \"Welcome to MulmoCast\" popup appears",
-          "- Select Display Language (English shown in video)",
+          "- Select Display Language (English shown in image)",
           "- Click [Next] button in bottom right",
           "",
           "日本語",
           "- 「Welcome to MulmoCast」ポップアップが表示",
-          "- Display Language を選択（動画では English）",
-          "- 右下の [Next] ボタンをクリック"
+          "- Display Language を選択（画像では English）",
+          "- 右下の [次へ] ボタンをクリック"
         ]
       }
     },
@@ -115,14 +115,14 @@
           "</div>",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_12.png?raw=true\" alt=\"API Key Settings\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_16.png?raw=true\" alt=\"Setup Complete\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "入力後、右下のネクストボタンをクリックします。なお、つまずきやすいポイントとして、この操作には、事前にオープンエーアイのウェブサイトでエーピーアイキーを取得しておく必要があります。エーピーアイキーがないと先に進めませんのでご注意ください。",
+      "text": "入力後、右下の次へボタンをクリックします。なお、つまずきやすいポイントとして、この操作には、事前にオープンエーアイのウェブサイトでエーピーアイキーを取得しておく必要があります。エーピーアイキーがないと先に進めませんのでご注意ください。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -136,19 +136,21 @@
           "- Switch to \"API Key Settings\" screen",
           "- Enter your OpenAI API Key in input field",
           "- Click [Next] button after input",
+          "",
           "⚠️ **Important**: OpenAI API Key must be obtained beforehand",
           "",
           "日本語",
-          "- 「API Key Settings」画面に切り替わり",
+          "- 「APIキー設定」画面に切り替わり",
           "- OpenAI API Key 入力フィールドにキーを入力",
-          "- 入力後、右下の [Next] ボタンをクリック",
+          "- 入力後、右下の [次へ] ボタンをクリック",
+          "",
           "⚠️ **重要**: 事前にOpenAI APIキーの取得が必要"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "セットアップの完了について説明します。緑色のチェックマークと共に「セットアップ コンプリート！」と表示されれば、初期設定は完了です。",
+      "text": "セットアップの完了について説明します。緑色のチェックマークと共に「セットアップが正常に完了しました」と表示されれば、初期設定は完了です。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -159,14 +161,14 @@
           "</div>",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_16.png?raw=true\" alt=\"Setup Complete\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_20.png?raw=true\" alt=\"What's Next\" width=\"80%\">",
           "</div>"
-        ]
+          ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "続いて、サンプルプロジェクトによる動画生成について説明します。",
+      "text": "続いて、サンプルプロジェクトによる動画生成について説明します。ホーム画面から、あらかじめ用意されているサンプルプロジェクトを使って動画を生成し、保存する手順です。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -179,7 +181,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "ダッシュボード画面から、あらかじめ用意されているサンプルプロジェクトを使って動画を生成し、保存する手順です。まず、新規プロジェクトの作成を行います。",
+      "text": "まず、新規プロジェクトの作成を行います。「マルモキャストへようこそ！」と表示されたホーム画面が表示されます。画面左上にある黒い「新規作成」ボタンをクリックします。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -197,7 +199,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "「マルモキャストへようこそ！」と表示されたホーム画面が表示されます。画面左上にある黒い「新規作成」ボタンをクリックします。重要な操作場面の詳細として、初回から3回目のプロジェクト作成時は、操作に慣れるためのサンプルコンテンツ、台本や画像生成の指示文が自動的に読み込まれた状態でプロジェクトが開始されます。",
+      "text": "重要な操作場面の詳細として、初回から3回目のプロジェクト作成時は、操作に慣れるためのサンプルコンテンツ、台本や画像生成の指示文が自動的に読み込まれた状態でプロジェクトが開始されます。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -234,7 +236,7 @@
           "</div>",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_24.png?raw=true\" alt=\"Project Editor\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_30.png?raw=true\" alt=\"Generate Video\" width=\"80%\">",
           "</div>"
         ]
       }
@@ -282,52 +284,6 @@
           "</div>",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_30.png?raw=true\" alt=\"Generate Video\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "クリック後、動画生成プロセスが開始されます。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Generation Process Started",
-          "### 生成プロセス開始",
-          "</div>",
-          "",
-          "English",
-          "- Click black [Generate Video] button",
-          "- Button changes to \"1 Generating\"",
-          "- Log shows progress:",
-          "  - \"Generating Audio, Audio...\"",
-          "  - \"Generating Image, Image...\"",
-          "",
-          "日本語",
-          "- 黒い [Generate Video] ボタンをクリック",
-          "- ボタンが「1 Generating」に変化",
-          "- ログに進行状況表示:",
-          "  - 「Generating Audio, Audio...」",
-          "  - 「Generating Image, Image...」"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "生成プロセスの詳細について説明します。アプリケーションが各「ビート」に設定された内容に基づいて、自動で処理を進めます。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Generation Process Details",
-          "### 生成プロセスの詳細",
-          "</div>",
-          "",
-          "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_36.png?raw=true\" alt=\"Generation Process\" width=\"80%\">",
           "</div>"
         ]
@@ -335,14 +291,14 @@
     },
     {
       "speaker": "Presenter",
-      "text": "音声生成「ジェネレート オーディオ」では、設定されたセリフからナレーション音声を生成します。画像生成「イメージ ジェネレーション プロンプト」では、設定されたプロンプトを基にエーアイが画像を生成します。生成が完了した「ビート」から順に、「イメージ プレビュー」欄に画像が表示されていきます。ユーザーがつまずきやすいポイントとして、動画の長さやシーン数によって、生成には数分かかる場合があります。処理が完了するまで、画面を閉じたり他の操作をしたりせずにお待ちください。",
+      "text": "クリック後、動画生成プロセスが開始されます。生成プロセスの詳細について説明します。アプリケーションが各「ビート」に設定された内容に基づいて、自動で処理を進めます。動画の長さやシーン数によって、生成には数分かかる場合があります。処理が完了するまでお待ちください。",
       "image": {
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
           "",
-          "### Automatic Processing by Beat",
-          "### ビート毎の自動処理",
+          "### Generation Process Started",
+          "### 生成プロセス開始",
           "</div>",
           "",
           "English",
@@ -390,25 +346,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "「動画を作る / 動画を見る」パネルに、完成した動画のプレビューが表示されます。パネル内の「再生」ボタンをクリックすると、その場で動画を再生して内容を確認できます。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Video Preview Available",
-          "### 動画プレビュー表示",
-          "</div>",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_12.png?raw=true\" alt=\"Video Preview\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "緑色の完了通知が表示されると生成完了です。「動画を作る / 動画を見る」パネルに完成した動画のプレビューが表示され、「再生」ボタンで動画を再生して内容確認ができます。",
+      "text": "「動画を作る / 動画を見る」パネルに完成した動画のプレビューが表示され、「再生」ボタンで動画を再生して内容確認ができます。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -426,7 +364,7 @@
           "日本語",
           "- 緑色通知表示",
           "- 動画を作る / 動画を見る パネルに動画プレビュー表示",
-          "- [▶ P再生] ボタンクリックで動画内容確認可能"
+          "- [▶ 再生] ボタンクリックで動画内容確認可能"
         ]
       }
     },
