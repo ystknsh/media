@@ -36,8 +36,6 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div>",
-          "",
           "# MulmoCast Installation Guide (Mac)",
           "# MulmoCast インストールガイド (Mac版)",
           "",
@@ -46,7 +44,6 @@
           "",
           "- Download / ダウンロード",
           "- Installation / インストール",
-          "</div>"
         ]
       }
     },
