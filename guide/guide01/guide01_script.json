@@ -217,32 +217,6 @@
     },
     {
       "speaker": "Presenter",
-      "text": "先ほどの画面での操作手順について、まとめるとこのようになります。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Dashboard - Create New Project",
-          "### ホーム - 新規プロジェクト作成",
-          "</div>",
-          "",
-          "English",
-          "- \"Welcome to MulmoCast!\" dashboard appears",
-          "- Click black [+ Create New] button in top left",
-          "- For first 3 projects: sample content auto-loaded",
-          "- Includes sample scripts and image generation prompts",
-          "",
-          "日本語",
-          "- 「マルモキャストへようこそ!」ホーム表示",
-          "- 左上の黒い [+ 新規作成] ボタンをクリック",
-          "- 初回〜3回目：サンプルコンテンツが自動読み込み",
-          "- 台本や画像生成指示文が含まれる"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
       "text": "プロジェクト編集画面の確認を行います。「導入1. ようこそ、マルモキャスト へ!!」というタイトルのプロジェクト編集画面が開きます。画面構成のポイントについて説明します。中央エリア「動画のストーリーを作る」では、動画の各シーン「ビート1」「ビート2」のセリフや画像生成プロンプトが設定されています。ここを編集することでオリジナルの動画を作成します。右側エリア「動画を作る / 動画を見る」では、動画の生成ボタンやプレビューが表示されるエリアです。",
       "image": {
         "type": "markdown",
@@ -261,37 +235,25 @@
     },
     {
       "speaker": "Presenter",
-      "text": "先ほどの画面説明について、まとめるとこのようになります。",
+      "text": "動画の生成開始について説明します。画面右側の「動画を作る / 動画を見る」パネル内にある、黒い「動画生成」ボタンをクリックします。",
       "image": {
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
           "",
-          "### Screen Layout Overview",
-          "### 画面構成のポイント",
+          "### Start Video Generation",
+          "### 動画の生成開始",
           "</div>",
           "",
-          "English",
-          "- **Center Area (Create Video Story)**: Scene settings",
-          "  - Beat 1, Beat 2... dialogue and image prompts",
-          "  - Edit here to create original videos",
-          "",
-          "- **Right Area (Create Video / Watch Video)**: Generation controls",
-          "  - Video generation button and preview area",
-          "",
-          "日本語",
-          "- **中央エリア (動画のストーリーを作る)**: シーン設定",
-          "  - Beat 1, Beat 2... のセリフと画像プロンプト",
-          "  - ここを編集してオリジナル動画を作成",
-          "",
-          "- **右側エリア (動画を作る / 動画を見る)**: 生成コントロール",
-          "  - 動画生成ボタンとプレビューエリア"
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_31_8.png?raw=true\" alt=\"Generation Process\" width=\"80%\">",
+          "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "動画の生成開始について説明します。画面右側の「動画を作る / 動画を見る」パネル内にある、黒い「動画生成」ボタンをクリックします。クリック後、動画生成プロセスが開始されます。生成プロセスの詳細について説明します。アプリケーションが各「ビート」に設定された内容に基づいて、自動で処理を進めます。動画の長さやシーン数によって、生成には数分かかる場合があります。処理が完了するまでお待ちください。",
+      "text": "クリック後、動画生成プロセスが開始されます。アプリケーションが各「ビート」に設定された内容に基づいて、音声",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -309,38 +271,37 @@
     },
     {
       "speaker": "Presenter",
-      "text": "先ほどの動画生成の説明について、まとめるとこのようになります。",
+      "text": "画像、",
       "image": {
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
           "",
-          "### Generation Process Started",
-          "### 生成プロセス開始",
+          "### Start Video Generation",
+          "### 動画の生成開始",
           "</div>",
           "",
-          "English",
-          "- **Audio Generation (Generate audio)**:",
-          "  - Creates narration from dialogue text",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_58.png?raw=true\" alt=\"Generation Process\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "動画の順番で処理を進めます。動画の長さやシーン数によって、生成には数分かかる場合があります。処理が完了するまでお待ちください。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "<div style='margin-left: 20px; margin-top: 20px;'>",
           "",
-          "- **Image Generation (Image Generation Prompt)**:",
-          "  - AI generates images from prompts",
+          "### Start Video Generation",
+          "### 動画の生成開始",
+          "</div>",
           "",
-          "- **Progress Display**:",
-          "  - Completed beats show in Image Preview",
-          "⚠️ **Note**: Generation may take several minutes",
-          "",
-          "日本語",
-          "- **音声生成 (Generate audio)**:",
-          "  - セリフからナレーション音声を生成",
-          "",
-          "- **画像生成 (Image Generation Prompt)**:",
-          "  - プロンプトからAIが画像を生成",
-          "",
-          "- **進行表示**:",
-          "  - 完了したビートから Image Preview に表示",
-          "",
-          "⚠️ **注意**: 生成には数分かかる場合があります"
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_08.png?raw=true\" alt=\"Generation Process\" width=\"80%\">",
+          "</div>"
         ]
       }
     },
@@ -357,32 +318,8 @@
           "</div>",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_08.png?raw=true\" alt=\"Generation Complete\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_12.png?raw=true\" alt=\"Generation Complete\" width=\"80%\">",
           "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Preview and Playback",
-          "### プレビューと再生",
-          "</div>",
-          "",
-          "English",
-          "- Green notification",
-          "- Video preview appears in Create Video / Watch Video panel",
-          "- Click [▶ Play] button to preview video content",
-          "",
-          "日本語",
-          "- 緑色通知表示",
-          "- 動画を作る / 動画を見る パネルに動画プレビュー表示",
-          "- [▶ 再生] ボタンクリックで動画内容確認可能"
         ]
       }
     },
