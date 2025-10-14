@@ -67,6 +67,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Welcome Screen and Display Language Selection",
           "### ウェルカム画面と表示言語の選択",
           "</div>",
@@ -84,6 +85,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Welcome to MulmoCast - Language Selection",
           "### Welcome to MulmoCast - 言語選択",
           "</div>",
@@ -107,6 +109,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### API Key Settings",
           "### APIキーの設定",
           "</div>",
@@ -124,6 +127,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### API Key Entry Process",
           "### APIキー入力プロセス",
           "</div>",
@@ -149,6 +153,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Setup Complete",
           "### セットアップの完了",
           "</div>",
@@ -179,6 +184,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Creating New Project",
           "### 新規プロジェクトの作成",
           "</div>",
@@ -196,6 +202,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Dashboard - Create New Project",
           "### ホーム - 新規プロジェクト作成",
           "</div>",
@@ -221,6 +228,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Project Editor Screen",
           "### プロジェクト編集画面の確認",
           "</div>",
@@ -238,6 +246,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Screen Layout Overview",
           "### 画面構成のポイント",
           "</div>",
@@ -267,6 +276,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Start Video Generation",
           "### 動画の生成開始",
           "</div>",
@@ -284,6 +294,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Generation Process Started",
           "### 生成プロセス開始",
           "</div>",
@@ -311,6 +322,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Generation Process Details",
           "### 生成プロセスの詳細",
           "</div>",
@@ -328,6 +340,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Automatic Processing by Beat",
           "### ビート毎の自動処理",
           "</div>",
@@ -364,6 +377,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Generation Complete and Video Preview",
           "### 生成完了と動画プレビュー",
           "</div>",
@@ -381,6 +395,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Video Preview Available",
           "### 動画プレビュー表示",
           "</div>",
@@ -398,6 +413,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Preview and Playback",
           "### プレビューと再生",
           "</div>",
@@ -421,6 +437,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Download Video File",
           "### 動画ファイルのダウンロード",
           "</div>",
@@ -438,6 +455,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### File Save Dialog",
           "### ファイル保存ダイアログ",
           "</div>",
@@ -455,6 +473,7 @@
         "type": "markdown",
         "markdown": [
           "<div style='margin-left: 20px; margin-top: 20px;'>",
+          "",
           "### Download Process Summary",
           "### ダウンロードプロセスまとめ",
           "</div>",
