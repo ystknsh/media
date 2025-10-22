@@ -28,6 +28,9 @@
       "duration": 1
     }
   },
+  "textSlideParams": {
+    "cssStyles": "h3 {margin-left: 20px; margin-top: 20px}"
+  },
   "beats": [
     {
       "id": "title-slide",
@@ -66,11 +69,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Welcome Screen and Display Language Selection",
-          "### ウェルカム画面と表示言語の選択",
-          "</div>",
+          "### Welcome Screen and Display Language Selection <br> ウェルカム画面と表示言語の選択",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_00.png?raw=true\" alt=\"Welcome Screen\" width=\"80%\">",
@@ -84,11 +83,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Welcome to MulmoCast - Language Selection",
-          "### Welcome to MulmoCast - 言語選択",
-          "</div>",
+          "### Welcome to MulmoCast - Language Selection <br> Welcome to MulmoCast - 言語選択",
           "",
           "English",
           "- \"Welcome to MulmoCast\" popup appears",
@@ -108,11 +103,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### API Key Settings",
-          "### APIキーの設定",
-          "</div>",
+          "### API Key Settings <br> APIキーの設定",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_16.png?raw=true\" alt=\"Setup Complete\" width=\"80%\">",
@@ -126,11 +117,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### API Key Entry Process",
-          "### APIキー入力プロセス",
-          "</div>",
+          "### API Key Entry Process <br> APIキー入力プロセス",
           "",
           "English",
           "- Switch to \"API Key Settings\" screen",
@@ -154,11 +141,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Setup Complete",
-          "### セットアップの完了",
-          "</div>",
+          "### Setup Complete <br> セットアップの完了",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_20.png?raw=true\" alt=\"What's Next\" width=\"70%\">",
@@ -185,14 +168,10 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Creating New Project",
-          "### 新規プロジェクトの作成",
-          "</div>",
+          "### Creating New Project <br> 新規プロジェクトの作成",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_23.png?raw=true\" alt=\"Dashboard\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_24.png?raw=true\" alt=\"Dashboard\" width=\"80%\">",
           "</div>"
         ]
       }
@@ -221,11 +200,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Project Editor Screen",
-          "### プロジェクト編集画面の確認",
-          "</div>",
+          "### Project Editor Screen <br> プロジェクト編集画面の確認",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_30.png?raw=true\" alt=\"Generate Video\" width=\"80%\">",
@@ -239,11 +214,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Start Video Generation",
-          "### 動画の生成開始",
-          "</div>",
+          "### Start Video Generation <br> 動画の生成開始",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_31_8.png?raw=true\" alt=\"Generation Process\" width=\"80%\">",
@@ -257,11 +228,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Start Video Generation",
-          "### 動画の生成開始",
-          "</div>",
+          "### Start Video Generation <br> 動画の生成開始",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_36.png?raw=true\" alt=\"Generation Process\" width=\"70%\">",
@@ -275,11 +242,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Start Video Generation",
-          "### 動画の生成開始",
-          "</div>",
+          "### Start Video Generation <br> 動画の生成開始",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_00_58.png?raw=true\" alt=\"Generation Process\" width=\"70%\">",
@@ -293,11 +256,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Start Video Generation",
-          "### 動画の生成開始",
-          "</div>",
+          "### Start Video Generation <br> 動画の生成開始",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_08.png?raw=true\" alt=\"Generation Process\" width=\"70%\">",
@@ -311,11 +270,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Generation Complete and Video Preview",
-          "### 生成完了と動画プレビュー",
-          "</div>",
+          "### Generation Complete and Video Preview <br> 生成完了と動画プレビュー",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_12.png?raw=true\" alt=\"Generation Complete\" width=\"70%\">",
@@ -329,11 +284,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### Download Video File",
-          "### 動画ファイルのダウンロード",
-          "</div>",
+          "### Download Video File <br> 動画ファイルのダウンロード",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_01_23.png?raw=true\" alt=\"Download Button\" width=\"80%\">",
@@ -347,11 +298,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### File Save Dialog",
-          "### ファイル保存ダイアログ",
-          "</div>",
+          "### File Save Dialog <br> ファイル保存ダイアログ",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide01/images/screenshot_02_23.png?raw=true\" alt=\"File Save Dialog\" width=\"80%\">",
