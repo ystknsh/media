@@ -28,6 +28,9 @@
       "duration": 1
     }
   },
+  "textSlideParams": {
+    "cssStyles": "h3 {margin-left: 20px; margin-top: 20px}"
+  },
   "beats": [
     {
       "id": "title-slide",
@@ -53,11 +56,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### 1. Downloading the Application",
-          "### 1. アプリケーションのダウンロード",
-          "</div>",
+          "### 1. Downloading the Application <br> 1. アプリケーションのダウンロード",
           "",
           "English",
           "- Go to `mulmocast.com`",
@@ -77,11 +76,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### 2. Install Application - Drag MulmoCast.app to Applications folder",
-          "### 2. アプリケーションをインストール - MulmoCast.appをアプリケーションフォルダにドラッグ",
-          "</div>",
+          "### 2. Install Application - Drag MulmoCast.app to Applications folder <br> 2. アプリケーションをインストール - MulmoCast.appをアプリケーションフォルダにドラッグ",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide00_script_mac/images/00_00_download_folder_drag.png?raw=true\" alt=\"Drag to Applications\" width=\"80%\">",
@@ -95,11 +90,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='margin-left: 20px; margin-top: 20px;'>",
-          "",
-          "### 3. Launch Application - Click \"Open\" when prompted (first launch only)",
-          "### 3. アプリケーション起動 - 確認画面で「開く」をクリック（初回起動時のみ）",
-          "</div>",
+          "### 3. Launch Application - Click \"Open\" when prompted (first launch only) <br> 3. アプリケーション起動 - 確認画面で「開く」をクリック（初回起動時のみ）",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide00_script_mac/images/00_02_app_open.png?raw=true\" alt=\"App Open\" width=\"80%\">",
