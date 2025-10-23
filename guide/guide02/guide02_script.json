@@ -87,7 +87,7 @@
           "### Select Google as Movie Provider <br> 動画生成設定 AIの種類をGoogleに設定",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_00_16.png?raw=true\" alt=\"Select Google\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_00_18.png?raw=true\" alt=\"Select Google\" width=\"80%\">",
           "</div>"
         ]
       }
@@ -112,9 +112,12 @@
         "type": "markdown",
         "markdown": [
           "### Enter Image Generation Prompt <br> 画像生成プロンプトを入力",
+          "> Blue whale swimming under sunlight in deep ocean, facing left, cinematic lighting.",
+          "",
+          "> (和訳) 深海で太陽光の下を泳ぐシロナガスクジラ、左向き、映画的な照明",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_00_29.png?raw=true\" alt=\"Image Prompt\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_00_32.png?raw=true\" alt=\"Image Prompt\" width=\"80%\">",
           "</div>"
         ]
       }
@@ -135,11 +138,11 @@
     },
     {
       "speaker": "Presenter",
-      "text": "生成された画像が「イメージ プレビュー」ボックスに表示されます。",
+      "text": "生成された画像が表示されたら完了です。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Generated image appears in Image Preview <br> 生成された画像がイメージプレビューに表示",
+          "### Generated image appears in Image Preview <br> 生成された画像が画像プレビューに表示",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_00_54.png?raw=true\" alt=\"Image Preview\" width=\"80%\">",
@@ -168,15 +171,15 @@
         "markdown": [
           "### Three Methods for Video Generation <br> 動画生成の3つの方法",
           "",
-          "**Method A**: Image Generation Prompt → Generated Image → Empty Movie Prompt \" \" (Default Animation)",
+          "**Method A**: Generate video based on the image created with Image Generation Prompt. Set Movie Prompt to blank space \" \".",
           "",
           "**方法A**: 画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトは空白スペース \" \" にします。",
           "",
-          "**Method B**: Image Generation Prompt → Generated Image → Movie Prompt (Custom Animation)",
+          "**Method B**: Generate video based on the image created with Image Generation Prompt. Specify animation with Movie Prompt.",
           "",
           "**方法B**: 画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトでアニメーションを指定します。",
           "",
-          "**Method C**: Movie Prompt Only (One-step Generation)",
+          "**Method C**: Generate both image and video simultaneously using Movie Prompt only.",
           "",
           "**方法C**: 動画生成プロンプトのみで画像と動画を同時に生成"
         ]
@@ -197,7 +200,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "画像生成プロンプトの下の動画生成プロンプトフィールドにスペースを1つ入力します。画像生成プロンプトで生成した画像をベースに動画を生成します。ムービー プロンプトフィールドの横にある生成ボタンをクリックします。「ビデオ プレビュー」ボックスに「生成中」ステータスが表示されます。",
+      "text": "画像生成プロンプトの下の動画生成プロンプトにスペースを1つ入力します。画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトの横にある生成ボタンをクリックします。「動画プレビュー」ボックスに「生成中」ステータスが表示されます。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -211,21 +214,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "生成が完了すると、生成された動画が表示されます。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Generated video appears <br> 生成された動画が表示",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_01_31.png?raw=true\" alt=\"Video Generated\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "動画の内容を確認します。動画プレビューをクリックして、より大きなウィンドウで開き、再生します。3ドットメニューを使用してダウンロードできます。",
+      "text": "生成が完了すると、生成された動画が表示されます。動画の内容を確認します。動画プレビューをクリックして",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -233,6 +222,20 @@
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_01_35.png?raw=true\" alt=\"Open Video\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "より大きなウィンドウで開き、再生します。3ドットメニューを使用してダウンロードできます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Review video content <br> 動画の内容を確認",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_01_40.png?raw=true\" alt=\"Open Video\" width=\"80%\">",
           "</div>"
         ]
       }
