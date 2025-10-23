@@ -171,13 +171,13 @@
         "markdown": [
           "### Three Methods for Video Generation <br> 動画生成の3つの方法",
           "",
-          "**Method A**: Generate video based on the image created with Image Generation Prompt. Set Movie Prompt to blank space \" \".",
+          "**Method A**: Generated Image + Movie Prompt is blank space \" \"",
           "",
-          "**方法A**: 画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトは空白スペース \" \" にします。",
+          "**方法A**: 生成画像 + 動画生成プロンプトは空白スペース \" \"",
           "",
-          "**Method B**: Generate video based on the image created with Image Generation Prompt. Specify animation with Movie Prompt.",
+          "**Method B**: Generated Image + Specify animation with Movie Prompt",
           "",
-          "**方法B**: 画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトでアニメーションを指定します。",
+          "**方法B**: 生成画像 + 動画生成プロンプトでアニメーションを指定",
           "",
           "**Method C**: Generate both image and video simultaneously using Movie Prompt only. (Advanced mode only)",
           "",
@@ -344,14 +344,14 @@
     },
     {
       "speaker": "Presenter",
-      "text": "生成が完了すると、画像と動画の両方がプレビューエリアに表示されます。生成された動画をクリックして内容を確認します。",
+      "text": "生成された動画をクリックして内容を確認します。",
       "image": {
         "type": "markdown",
         "markdown": [
           "### Click to watch the result <br> クリックして結果を確認",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_01_48.png?raw=true\" alt=\"Preview Video\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_01_46.png?raw=true\" alt=\"Preview Video\" width=\"80%\">",
           "</div>"
         ]
       }
