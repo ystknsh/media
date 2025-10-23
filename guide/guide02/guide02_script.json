@@ -42,8 +42,8 @@
           "# MulmoCast: Generating Images and Videos",
           "# MulmoCast: 画像・動画を生成する方法",
           "",
-          "## Complete Guide to Image and Video Generation",
-          "## 画像・動画生成の完全ガイド",
+          "## Basics of Image and Video Generation",
+          "## 画像・動画生成の基礎",
           "",
           "- Initial Setup / 初期設定",
           "- How to Generate Images / 画像の生成方法",
@@ -138,7 +138,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "生成された画像が表示されたら完了です。",
+      "text": "画像が表示されたら完了です。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -179,9 +179,9 @@
           "",
           "**方法B**: 画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトでアニメーションを指定します。",
           "",
-          "**Method C**: Generate both image and video simultaneously using Movie Prompt only.",
+          "**Method C**: Generate both image and video simultaneously using Movie Prompt only. (Advanced mode only)",
           "",
-          "**方法C**: 動画生成プロンプトのみで画像と動画を同時に生成"
+          "**方法C**: 動画生成プロンプトのみで画像と動画を同時に生成（上級モードのみ）"
         ]
       }
     },
@@ -214,7 +214,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "生成が完了すると、生成された動画が表示されます。動画の内容を確認します。動画プレビューをクリックして",
+      "text": "生成が完了すると、動画が表示されます。動画の内容を確認します。動画プレビューをクリックして",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -228,7 +228,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "より大きなウィンドウで開き、再生します。3ドットメニューを使用してダウンロードできます。",
+      "text": "より大きなウィンドウで開き、確認することができます。なお、3ドットメニューを使用してダウンロード可能です。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -242,7 +242,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "方法B について説明します。画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトでアニメーションを指定します。",
+      "text": "方法B について説明します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -260,20 +260,23 @@
         "type": "markdown",
         "markdown": [
           "### Describe desired animation in Movie Prompt <br> 動画生成プロンプトに希望のアニメーションを記述",
+          "> Whale dives deeper into the darkness below. Light fades gradually.",
+          "",
+          "> (和訳) クジラは下の暗闇へと深く潜る。光は徐々に消えていく。",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_01_57.png?raw=true\" alt=\"Enter Movie Prompt\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02_05.png?raw=true\" alt=\"Enter Movie Prompt\" width=\"70%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "生成ボタンをクリックして、新しい動画の生成を開始します。",
+      "text": "生成ボタンをクリックして、動画の生成を開始します。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Click generate button to generate new video <br> 生成ボタンをクリックして新しい動画を生成",
+          "### Click generate button to generate new video <br> 生成ボタンをクリックして動画を生成",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02_05.png?raw=true\" alt=\"Generate with Prompt\" width=\"80%\">",
@@ -283,41 +286,27 @@
     },
     {
       "speaker": "Presenter",
-      "text": "プロンプトの指示に従った新しい動画がプレビュー用に準備されます。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### New video ready for preview <br> 新しい動画がプレビュー準備完了",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02_11.png?raw=true\" alt=\"New Video Ready\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "動画をクリックして結果を確認します。クジラの動きが方法Aと異なるのがわかります。",
+      "text": "生成が完了したら、動画をクリックして結果を確認します。クジラの動きが方法Aと異なるのがわかります。",
       "image": {
         "type": "markdown",
         "markdown": [
           "### Click to watch the result <br> クリックして結果を確認",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02_14.png?raw=true\" alt=\"Watch Result\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02_15.png?raw=true\" alt=\"Watch Result\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "方法C、動画生成プロンプトのみで動画生成について説明します。この方法は、画像生成プロンプトを空白にして、動画生成プロンプトだけで画像と動画を同時に生成します。",
+      "text": "方法C、動画生成プロンプトのみで動画生成について説明します。この方法を使用するには、上級モードに変更してください。",
       "image": {
         "type": "markdown",
         "markdown": [
           "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
           "",
-          "### Method C: Video Generation with Movie Prompt Only <br> 方法C: 動画生成プロンプトのみで動画生成",
+          "### Method C: Video Generation with Movie Prompt Only (Advanced mode only) <br> 方法C: 動画生成プロンプトのみで動画生成（上級モードのみ）",
           "</div>"
         ]
       }
