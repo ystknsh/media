@@ -128,7 +128,7 @@
           "### Click generate button to start generation <br> 生成ボタンをクリックして生成開始",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_00_31.png?raw=true\" alt=\"Start Generation\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_00_32.png?raw=true\" alt=\"Start Generation\" width=\"80%\">",
           "</div>"
         ]
       }
@@ -162,7 +162,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "動画生成には3つの方法があります。方法A、画像生成プロンプトで生成した画像をベースに、動画生成プロンプトを空白スペースにしてデフォルトアニメーションで生成。方法B、画像生成プロンプトで生成した画像をベースに、動画生成プロンプトでアニメーションを指定して生成。方法C、動画生成プロンプトのみで画像と動画を同時に生成。それでは順に説明します。",
+      "text": "動画生成には3つの方法があります。方法A、画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトは空白スペースにします。方法B、画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトでアニメーションを指定します。方法C、動画生成プロンプトのみで画像と動画を同時に生成します。それでは順に説明します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -170,11 +170,11 @@
           "",
           "**Method A**: Image Generation Prompt → Generated Image → Empty Movie Prompt \" \" (Default Animation)",
           "",
-          "**方法A**: 画像生成プロンプトで生成した画像をベースに、動画生成プロンプトを空白スペース \" \" にしてデフォルトアニメーションで生成",
+          "**方法A**: 画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトは空白スペース \" \" にします。",
           "",
           "**Method B**: Image Generation Prompt → Generated Image → Movie Prompt (Custom Animation)",
           "",
-          "**方法B**: 画像生成プロンプトで生成した画像をベースに、動画生成プロンプトでアニメーションを指定して生成",
+          "**方法B**: 画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトでアニメーションを指定します。",
           "",
           "**Method C**: Movie Prompt Only (One-step Generation)",
           "",
@@ -184,36 +184,20 @@
     },
     {
       "speaker": "Presenter",
-      "text": "方法A シンプルな動画生成について説明します。この方法は、デフォルトのモーションエフェクトを使った短いアニメーション動画を作成します。",
+      "text": "方法A について説明します。",
       "image": {
         "type": "markdown",
         "markdown": [
           "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
           "",
           "### Method A: Simple Video Generation <br> 方法A: シンプルな動画生成",
-          "",
-          "## (Default Animation) <br> (デフォルトアニメーション)",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "生成された画像の下にある、ムービー プロンプトフィールドを見つけます。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Locate the Movie Prompt field <br> 動画生成プロンプトフィールドを見つける",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_00_56.png?raw=true\" alt=\"Movie Prompt Field\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "このフィールドを空白のままにするか、スペースを1つ入力します。システムはデフォルトのアニメーション設定を使用します。ムービー プロンプトフィールドの横にある生成ボタンをクリックします。「ビデオ プレビュー」ボックスに「ジェネレーティング」ステータスが表示されます。",
+      "text": "画像生成プロンプトの下の動画生成プロンプトフィールドにスペースを1つ入力します。画像生成プロンプトで生成した画像をベースに動画を生成します。ムービー プロンプトフィールドの横にある生成ボタンをクリックします。「ビデオ プレビュー」ボックスに「生成中」ステータスが表示されます。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -227,7 +211,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "生成された動画が表示されます。",
+      "text": "生成が完了すると、生成された動画が表示されます。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -241,11 +225,11 @@
     },
     {
       "speaker": "Presenter",
-      "text": "動画プレビューをクリックして、より大きなウィンドウで開き、再生します。3ドットメニューを使用してダウンロードできます。",
+      "text": "動画の内容を確認します。動画プレビューをクリックして、より大きなウィンドウで開き、再生します。3ドットメニューを使用してダウンロードできます。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Open and download video <br> 動画を開いてダウンロード",
+          "### Review video content <br> 動画の内容を確認",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_01_35.png?raw=true\" alt=\"Open Video\" width=\"80%\">",
@@ -255,27 +239,13 @@
     },
     {
       "speaker": "Presenter",
-      "text": "3ドットメニューからダウンロードを選択します。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Download from three-dot menu <br> 3ドットメニューからダウンロード",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_01_45.png?raw=true\" alt=\"Download Video\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "メソッドビー、ビデオ ジェネレーション ウィズ ア ディスクリプティブ プロンプトについて説明します。この方法は、望ましい動きを説明することで、アニメーションをより細かく制御できます。",
+      "text": "方法B について説明します。画像生成プロンプトで生成した画像をベースに動画を生成します。動画生成プロンプトでアニメーションを指定します。",
       "image": {
         "type": "markdown",
         "markdown": [
           "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
           "",
-          "### Method B: Video Generation with Descriptive Prompt <br> 方法B: 説明的プロンプトを使った動画生成",
+          "### Method B: Video Generation with Movie Prompt <br> 方法B: 動画生成プロンプトでアニメーションを指定",
           "</div>"
         ]
       }
