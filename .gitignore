@@ -102,3 +102,4 @@ guide/*/output/
 
 # Guide MP4 files
 guide/**/*.mp4
+!guide/guide02/movies/*.mp4
