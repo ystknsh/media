@@ -313,28 +313,17 @@
     },
     {
       "speaker": "Presenter",
-      "text": "画像生成プロンプトは空欄にします。動画生成プロンプトに、シーンの視覚的要素と望ましいアクションの両方を含む詳細な説明を入力します。ここでは、「A blue whale slowly rises toward the surface, sunlight beams shimmer through the water, cinematic lighting.」と入力します。",
+      "text": "画像生成プロンプトは空欄にします。動画生成プロンプトに、シーンの視覚的要素と望ましいアクションの両方を含む詳細な説明を入力します。ここでは、「A blue whale slowly rises toward the surface, sunlight beams shimmer through the water, cinematic lighting.」と入力します。その後、生成ボタンをクリックします。",
       "image": {
         "type": "markdown",
         "markdown": [
           "### Enter detailed Movie Prompt <br> 詳細な動画生成プロンプトを入力",
+          "> A blue whale slowly rises toward the surface, sunlight beams shimmer through the water, cinematic lighting.",
+          "",
+          "> シロナガスクジラがゆっくりと水面に向かって浮上し、太陽光線が水中できらめく、映画的な照明",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_00_41.png?raw=true\" alt=\"Enter Movie Prompt\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "ムービー プロンプトの横にある生成ボタンをクリックして生成を開始します。「ジェネレーティング ムービー」というステータスが表示されます。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Click generate button <br> 生成ボタンをクリック",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_00_43.png?raw=true\" alt=\"Start Generation\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_01_41.png?raw=true\" alt=\"Enter Movie Prompt\" width=\"80%\">",
           "</div>"
         ]
       }
@@ -348,21 +337,21 @@
           "### Image and video generated <br> 画像と動画が生成完了",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_01_41.png?raw=true\" alt=\"Generation Complete\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_01_46.png?raw=true\" alt=\"Generation Complete\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "生成された動画をクリックしてプレビュープレーヤーで確認できます。ここでアニメーションを視聴し、最終的なエムピーフォーファイルをダウンロードできます。",
+      "text": "生成が完了すると、画像と動画の両方がプレビューエリアに表示されます。生成された動画をクリックして内容を確認します。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Preview and download <br> プレビューとダウンロード",
+          "### Click to watch the result <br> クリックして結果を確認",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_01_46.png?raw=true\" alt=\"Preview Video\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_01_48.png?raw=true\" alt=\"Preview Video\" width=\"80%\">",
           "</div>"
         ]
       }
