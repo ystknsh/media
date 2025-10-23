@@ -252,7 +252,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "ムービー プロンプトフィールドに、画像をどのようにアニメーション化したいかを記述します。例えば、「Whale dives deeper into the darkness below. Light fades gradually.」と入力します。",
+      "text": "動画生成プロンプトに、画像をどのようにアニメーション化したいかを記述します。ここでは、「Whale dives deeper into the darkness below. Light fades gradually.」と入力します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -294,7 +294,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "動画をクリックして結果を確認します。クジラの動きと照明がプロンプトと一致していることがわかります。",
+      "text": "動画をクリックして結果を確認します。クジラの動きが方法Aと異なるのがわかります。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -308,21 +308,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "プレビュープレーヤーの3ドットメニューを使用して、最終的な動画をダウンロードできます。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Download final video <br> 最終動画をダウンロード",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02_39.png?raw=true\" alt=\"Download Final\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "メソッドシー、動画生成プロンプトのみで動画生成について説明します。この方法は、イメージジェネレーションプロンプトを空白にして、動画生成プロンプトだけで画像と動画を同時に生成します。",
+      "text": "方法C、動画生成プロンプトのみで動画生成について説明します。この方法は、画像生成プロンプトを空白にして、動画生成プロンプトだけで画像と動画を同時に生成します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -335,21 +321,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "重要なポイントとして、イメージ ジェネレーション プロンプトフィールドを完全に空白にしておきます。これがワンステップ生成プロセスを起動する鍵となります。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Leave Image Generation Prompt empty <br> 画像生成プロンプトを空白にする",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_00_32.png?raw=true\" alt=\"Empty Image Prompt\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "ムービー プロンプトフィールドに、シーンの視覚的要素と望ましいアクションの両方を含む詳細な説明を入力します。例えば、「A blue whale slowly rises toward the surface, sunlight beams shimmer through the water, cinematic lighting.」と入力します。",
+      "text": "画像生成プロンプトは空欄にします。動画生成プロンプトに、シーンの視覚的要素と望ましいアクションの両方を含む詳細な説明を入力します。ここでは、「A blue whale slowly rises toward the surface, sunlight beams shimmer through the water, cinematic lighting.」と入力します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -377,7 +349,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "システムは自動的にプロンプトに一致するベース画像を作成し、記述されたアクションに従ってアニメーション化します。「イメージ ジェネレーテッド サクセスフリー」という通知が表示され、画像と動画の両方がプレビューエリアに表示されます。",
+      "text": "生成が完了すると、画像と動画の両方がプレビューエリアに表示されます。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -405,21 +377,21 @@
     },
     {
       "speaker": "Presenter",
-      "text": "最後に、重要なポイントとトラブルシューティングについて説明します。動画生成プロセス、ムービー プロンプトは、常に既存の画像を必要とします。それは生成された画像をアニメーション化するものであり、新しい画像を作成するものではありません。",
+      "text": "最後に、重要なポイントについて説明します。方法AとBは、画像生成プロンプトで画像を生成してから、動画生成プロンプトでアニメーションを指定します。方法Cは、動画生成プロンプトのみで画像と動画を同時に生成します。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Key Points & Troubleshooting",
-          "### 重要なポイントとトラブルシューティング",
+          "### Key Points",
+          "### 重要なポイント",
           "",
           "English",
-          "- **Image First, Then Video**: Video generation always requires a pre-existing image",
-          "- **Distinct Prompts**: Image Generation Prompt creates visual content, Movie Prompt directs animation",
+          "- **Method A & B**: Generate image with Image Generation Prompt first, then specify animation with Movie Prompt (or leave blank)",
+          "- **Method C**: Generate both image and video simultaneously using Movie Prompt only",
           "- **Provider Configuration**: Ensure proper API keys are set in Settings menu",
           "",
           "日本語",
-          "- **まず画像、次に動画**: 動画生成には常に既存の画像が必要",
-          "- **異なるプロンプト**: 画像生成プロンプトは視覚コンテンツを作成、動画生成プロンプトはアニメーションを指示",
+          "- **方法A・B**: 画像生成プロンプトで画像を生成後、動画生成プロンプトでアニメーションを指定（または空白）",
+          "- **方法C**: 動画生成プロンプトのみで画像と動画を同時に生成",
           "- **プロバイダー設定**: 設定メニューで適切なAPIキーが設定されていることを確認"
         ]
       }
