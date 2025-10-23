@@ -1,0 +1,245 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "canvasSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "lang": "ja",
+  "title": "MulmoCast: キャラクターを設定する方法",
+  "description": "スタイルテンプレートを使用してキャラクター設定を自動的に構成し、プロジェクト全体で一貫したキャラクターの外観を確保する方法を解説するガイド",
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "voiceId": "nova",
+        "displayName": {
+          "ja": "ナレーター"
+        }
+      }
+    }
+  },
+  "movieParams": {
+    "provider": "mock",
+    "model": "",
+    "transition": {
+      "type": "fade",
+      "duration": 1
+    }
+  },
+  "textSlideParams": {
+    "cssStyles": "h3 {margin-left: 20px; margin-top: 20px}"
+  },
+  "beats": [
+    {
+      "id": "title-slide",
+      "speaker": "Presenter",
+      "text": "マルモキャスト、キャラクターを設定する方法へようこそ。このマニュアルでは、スタイルテンプレートを使用してキャラクター設定を自動的に構成する方法を説明します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "# MulmoCast: Generating Images and Videos",
+          "# MulmoCast: 画像・動画を生成する方法",
+          "",
+          "## Advanced: Character Setup",
+          "## 応用: キャラクター設定",
+          "",
+          "- Applying a Style Template / スタイルテンプレートの適用",
+          "- Reviewing the Automatic Character Setup / 自動キャラクター設定の確認",
+          "- Generating a Scene with the Pre-set Character / 事前設定されたキャラクターでシーン生成"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "まず、スタイルテンプレートの適用について説明します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
+          "",
+          "## 1. Applying a Style Template <br> 1. スタイルテンプレートの適用",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "スタイルテンプレートを使用すると、キャラクターデザイン、音声スタイル、画像パラメータを含む事前定義された設定一式を素早く読み込むことができます。ダッシュボードから、新規作成をクリックして新しいプロジェクトを開始します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Applying a Style Template <br> スタイルテンプレートの適用",
+          "",
+          "スタイルテンプレートを使用すると、キャラクターデザイン、音声スタイル、画像パラメータを含む事前定義された設定一式を素早く読み込むことができます。"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "クリエイト ビデオ ストーリー エディターで、スタイルタブに移動します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Navigate to the Style tab <br> スタイルタブに移動",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_10.png?raw=true\" alt=\"Style Tab\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "スタイルテンプレートセクションで、ドロップダウンメニュー、プリーズ セレクト ア スタイル、をクリックします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Click the dropdown menu <br> ドロップダウンメニューをクリック",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_12.png?raw=true\" alt=\"Dropdown Menu\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "リストから事前設定されたスタイルを選択します。この例では、プレゼンテーション バイ アニ、を選択します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Choose a pre-configured style <br> 事前設定されたスタイルを選択",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_13.png?raw=true\" alt=\"Select Style\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "アプライ スタイルボタンをクリックして、テンプレートの設定を読み込みます。スクリプト クリエイティッド サクセスフリー、という通知が表示されます。リーディング スタイルや、イメージ パラメーターのスタイルフィールドなど、さまざまなフィールドが自動的に入力されていることがわかります。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Click Apply Style button <br> アプライ スタイルボタンをクリック",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_15.png?raw=true\" alt=\"Apply Style\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "次に、自動キャラクター設定の確認について説明します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
+          "",
+          "## 2. Reviewing the Automatic Character Setup <br> 2. 自動キャラクター設定の確認",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "スタイルテンプレートを適用すると、関連するキャラクターも設定されます。これはキャラクタータブで確認できます。キャラクタータブをクリックします。スタイルテンプレートが自動的にキャラクターエントリを作成していることがわかります。ここでは、キャラクター、アニ、がリファレンスイメージと共にリストされています。これにより、エーアイがプロジェクト内のすべての将来の画像生成でこの特定のキャラクターデザインを使用することが保証されます。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Automatic Character Setup <br> 自動キャラクター設定",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_32.png?raw=true\" alt=\"Character Tab\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "続いて、事前設定されたキャラクターでシーンを生成する方法について説明します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
+          "",
+          "## 3. Generating a Scene with the Pre-set Character <br> 3. 事前設定されたキャラクターでシーン生成",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "スタイルとキャラクターが設定されると、非常にシンプルなプロンプトで画像を生成できます。システムは設定したキャラクターを自動的に使用します。ビートタブに戻ります。キャラクター イメージセクションで、スタイルテンプレートのキャラクター、アニ、がすでに選択されていることに注目してください。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Return to BEAT tab <br> BEATタブに戻る",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_35.png?raw=true\" alt=\"BEAT Tab\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "メインの入力フィールドにスクリプトまたはナレーションテキストを入力します。イメージ ジェネレーション プロンプトフィールドには、背景や設定の簡単な説明のみを入力します。キャラクターを説明する必要はありません。この例では、プロンプトは単純に、イン ザ フォレスト、です。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Enter simple prompt <br> シンプルなプロンプトを入力",
+          "",
+          "> in the forest.",
+          "",
+          "> 森の中",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_45.png?raw=true\" alt=\"Enter Prompt\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "生成ボタンをクリックして、画像の生成を開始します。生成された画像がプレビューボックスに表示されます。プロンプトで説明した森の背景に、事前定義された、アニ、キャラクターが正しく配置されています。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Generated image with character <br> キャラクター付き生成画像",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_02_31.png?raw=true\" alt=\"Generated Image\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "最後に、重要なポイントについて説明します。スタイルテンプレートは、特定の一貫したキャラクターの読み込みを含む、数十の設定を一度に構成できる強力なショートカットです。キャラクター機能を使用することは、複数のシーン全体で同じキャラクターの外観を維持する最良の方法です。キャラクターがビートに事前選択されている場合、イメージ ジェネレーション プロンプトで背景、アクション、または環境を説明するだけで済みます。エーアイは選択したキャラクターをシーンに自動的に追加します。生成された画像にキャラクターが表示されない場合は、ビートタブに戻り、キャラクター イメージボックスで正しいキャラクターがチェックされていることを確認してください。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Key Points",
+          "### 重要なポイント",
+          "",
+          "English",
+          "- **Automatic Setup**: Style Templates configure dozens of settings at once, including loading specific, consistent characters",
+          "- **Character Consistency**: Using the Character feature maintains the same character appearance across multiple scenes",
+          "- **Minimal Prompts Needed**: When a character is pre-selected, you only need to describe the background, action, or environment",
+          "- **Troubleshooting**: If your character doesn't appear, confirm that the correct character is checked in the Character Image box",
+          "",
+          "日本語",
+          "- **自動設定**: スタイルテンプレートは、特定の一貫したキャラクターの読み込みを含む、数十の設定を一度に構成",
+          "- **キャラクターの一貫性**: キャラクター機能を使用すると、複数のシーン全体で同じキャラクターの外観を維持",
+          "- **最小限のプロンプト**: キャラクターが事前選択されている場合、背景、アクション、または環境のみを説明",
+          "- **トラブルシューティング**: キャラクターが表示されない場合は、キャラクター イメージボックスで正しいキャラクターがチェックされているか確認"
+        ]
+      }
+    }
+  ]
+}
