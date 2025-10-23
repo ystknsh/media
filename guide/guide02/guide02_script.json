@@ -242,6 +242,17 @@
     },
     {
       "speaker": "Presenter",
+      "text": "参考に、方法Aで生成した動画を見てみましょう。",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/guide/guide02/movies/method_a.mp4"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
       "text": "方法B について説明します。",
       "image": {
         "type": "markdown",
@@ -300,6 +311,17 @@
     },
     {
       "speaker": "Presenter",
+      "text": "参考に、方法Bで生成した動画を見てみましょう。",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/guide/guide02/movies/method_b.mp4"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
       "text": "方法C、動画生成プロンプトのみで動画生成について説明します。この方法を使用するには、上級モードに変更してください。",
       "image": {
         "type": "markdown",
@@ -351,9 +373,20 @@
           "### Click to watch the result <br> クリックして結果を確認",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_01_46.png?raw=true\" alt=\"Preview Video\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide02/images/screenshot_02-02_01_48.png?raw=true\" alt=\"Preview Video\" width=\"80%\">",
           "</div>"
         ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "参考に、方法Cで生成した動画を見てみましょう。",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/guide/guide02/movies/method_c.mp4"
+        }
       }
     },
     {
