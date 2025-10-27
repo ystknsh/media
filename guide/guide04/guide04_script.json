@@ -116,7 +116,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "リップシンク機能を使用するには、Replicate API トークンの設定が必要です。右上の設定をクリックし、Replicate から取得した API トークン を入力します。",
+      "text": "リップシンク機能を使用するには、レプリケート  API トークンの設定が必要です。右上の設定をクリックし、レプリケート から取得した API トークン を入力します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -130,14 +130,14 @@
     },
     {
       "speaker": "Presenter",
-      "text": "Replicate API トークンを設定すると、",
+      "text": "レプリケート API トークンを設定すると、",
       "image": {
         "type": "markdown",
         "markdown": [
           "### LipSync option (before) <br> リップシンク設定項目（設定前）",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide04/images/screenshot_00_32.png?raw=true\" alt=\"Settings Saved\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide04/images/screenshot_00_36.png?raw=true\" alt=\"Settings Saved\" width=\"80%\">",
           "</div>"
         ]
       }
