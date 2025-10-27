@@ -171,7 +171,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "「キャラクター画像」で、ani が選択されていることを確認してください。",
+      "text": "「キャラクター画像」で、アニ が選択されていることを確認してください。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -185,7 +185,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "話す内容、画像生成プロンプトを入力します。ここでは、次のページのように入力します。",
+      "text": "話す内容、画像生成プロンプトを入力します。",
       "image": {
         "type": "markdown",
         "markdown": [
