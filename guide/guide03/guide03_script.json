@@ -91,7 +91,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "それでは、スタイルテンプレートの適用について説明します。",
+      "text": "それでは、スタイルテンプレートの適用について説明します。スタイルテンプレートを使用すると、キャラクターデザイン、音声スタイル、画像パラメータを含む事前定義された設定一式を素早く読み込むことができます。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -104,23 +104,11 @@
     },
     {
       "speaker": "Presenter",
-      "text": "スタイルテンプレートを使用すると、キャラクターデザイン、音声スタイル、画像パラメータを含む事前定義された設定一式を素早く読み込むことができます。ダッシュボードから、新規作成をクリックして新しいプロジェクトを開始します。",
+      "text": "ダッシュボードから、新規作成をクリックして新しいプロジェクトを開始し、スタイルタブに移動します。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Applying a Style Template <br> スタイルテンプレートの適用",
-          "",
-          "スタイルテンプレートを使用すると、キャラクターデザイン、音声スタイル、画像パラメータを含む事前定義された設定一式を素早く読み込むことができます。"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "クリエイト ビデオ ストーリー エディターで、スタイルタブに移動します。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Navigate to the Style tab <br> スタイルタブに移動",
+          "### Create new project and navigate to the Style tab <br> プロジェクトを新規作成し、スタイルタブに移動",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_10.png?raw=true\" alt=\"Style Tab\" width=\"80%\">",
@@ -130,7 +118,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "スタイルテンプレートセクションで、ドロップダウンメニュー、プリーズ セレクト ア スタイル、をクリックします。",
+      "text": "スタイルテンプレートセクションで、ドロップダウンメニューをクリックします。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -144,25 +132,25 @@
     },
     {
       "speaker": "Presenter",
-      "text": "リストから事前設定されたスタイルを選択します。この例では、プレゼンテーション バイ アニ、を選択します。",
+      "text": "リストから事前設定されたスタイルを選択します。ここでは、「Presentation by Ani」を選択します。",
       "image": {
         "type": "markdown",
         "markdown": [
           "### Choose a pre-configured style <br> 事前設定されたスタイルを選択",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_13.png?raw=true\" alt=\"Select Style\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_12_8.png?raw=true\" alt=\"Select Style\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "アプライ スタイルボタンをクリックして、テンプレートの設定を読み込みます。リーディング スタイルや、イメージ パラメーターのスタイルフィールドなど、さまざまなフィールドが自動的に入力されていることがわかります。",
+      "text": "「スタイルを適用」ボタンをクリックして設定を読み込みます。声の設定、画像生成設定など、さまざまなフィールドが自動的に入力されていることがわかります。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Click Apply Style button <br> アプライ スタイルボタンをクリック",
+          "### Click Apply Style button <br> スタイルを適用ボタンをクリック",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_15.png?raw=true\" alt=\"Apply Style\" width=\"80%\">",
@@ -172,24 +160,52 @@
     },
     {
       "speaker": "Presenter",
-      "text": "次に、自動キャラクター設定の確認について説明します。",
+      "text": "声の設定",
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
+          "### Click Apply Style button <br> スタイルを適用ボタンをクリック",
           "",
-          "## 2. Reviewing the Automatic Character Setup <br> 2. 自動キャラクター設定の確認",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_18.png?raw=true\" alt=\"Apply Style\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "スタイルテンプレートを適用すると、関連するキャラクターも設定されます。これはキャラクタータブで確認できます。キャラクタータブをクリックします。スタイルテンプレートが自動的にキャラクターエントリを作成していることがわかります。ここでは、キャラクター、アニ、がリファレンスイメージと共にリストされています。これにより、エーアイがプロジェクト内のすべての将来の画像生成でこの特定のキャラクターデザインを使用することが保証されます。",
+      "text": "画像生成設定など、さまざまなフィールドが自動的に入力されていることがわかります。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Automatic Character Setup <br> 自動キャラクター設定",
+          "### Click Apply Style button <br> スタイルを適用ボタンをクリック",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_21.png?raw=true\" alt=\"Apply Style\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "次に、キャラクター設定の確認について説明します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
+          "",
+          "## 2. Reviewing the Automatic Character Setup <br> 2. キャラクター設定の確認",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "スタイルテンプレートを適用すると、関連するキャラクターも設定されます。これはキャラクタータブで確認できます。ここでは、キャラクター、アニ、読み込まれています。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Review Character Setup in Character tab <br> キャラクタータブで設定を確認",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_32.png?raw=true\" alt=\"Character Tab\" width=\"80%\">",
