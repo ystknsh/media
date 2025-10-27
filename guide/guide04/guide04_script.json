@@ -116,7 +116,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "リップシンク機能を使用するには、Replicate API Tokenの設定が必要です。右上の設定をクリックし、Replicate から取得した API Key を入力します。",
+      "text": "リップシンク機能を使用するには、Replicate API トークンの設定が必要です。右上の設定をクリックし、Replicate から取得した API トークン を入力します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -130,7 +130,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "Replicate API Tokenを設定すると、",
+      "text": "Replicate API トークンを設定すると、",
       "image": {
         "type": "markdown",
         "markdown": [
