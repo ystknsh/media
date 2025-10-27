@@ -35,7 +35,7 @@
     {
       "id": "title-slide",
       "speaker": "Presenter",
-      "text": "マルモキャスト、リップシンク動画を作成する方法へようこそ。このマニュアルでは、キャラクターの口の動きが音声ナレーションと同期する動画を生成する方法を説明します。",
+      "text": "マルモキャスト、リップシンク動画を作成する方法へようこそ。このマニュアルでは、リップシンクと呼ばれる、キャラクターの口の動きが音声ナレーションと同期する動画を生成する方法を説明します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -48,8 +48,29 @@
           "- Initial Setup / 初期設定",
           "- Generating the Character Image / キャラクター画像の生成",
           "- Generating the Lip-Sync Video / リップシンク動画の生成",
-          "- Finalizing and Downloading the Video / 動画の完成とダウンロード"
         ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "この動画を見終わる頃には、リップシンク動画を作成できるようになります。それでは、まず完成例を見てみましょう。",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/blob/main/guide/guide04/images/ani.png?raw=true"
+        }
+      }
+    },
+    {
+      "speaker": "",
+      "text": "",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/guide/guide04/movies/ani.mov"
+        }
       }
     },
     {
@@ -67,7 +88,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "スタイルタブで、Presentation by Ani、を選択し、アプライ スタイルをクリックします。",
+      "text": "スタイルタブで、Presentation by Ani、を選択し、「スタイルを適用」をクリックします。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -95,7 +116,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "リップシンク機能を使用するには、Replicate API Tokenの設定が必要です。右上のセッティングアイコンをクリックし、Replicate から取得した API Key を入力します。",
+      "text": "リップシンク機能を使用するには、Replicate API Tokenの設定が必要です。右上の設定をクリックし、Replicate から取得した API Key を入力します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -137,7 +158,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "続いて、キャラクター画像の生成について説明します。",
+      "text": "続いて、リップシンクのベースとなるキャラクター画像の生成について説明します。ビートタブに移動します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -150,11 +171,11 @@
     },
     {
       "speaker": "Presenter",
-      "text": "まず、アニメーション化する静止画像を作成します。ビートタブに移動します。キャラクター イメージの下で、キャラクター、アニ、がすでに選択されているはずです。",
+      "text": "「キャラクター画像」で、ani が選択されていることを確認してください。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### BEAT tab with character selected <br> キャラクターが選択されたBEATタブ",
+          "### Confirm \"ani\" is selected in Character Image <br> キャラクター画像で \"ani\" が選択されていることを確認",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide04/images/screenshot_00_59.png?raw=true\" alt=\"BEAT Tab\" width=\"80%\">",
@@ -164,43 +185,43 @@
     },
     {
       "speaker": "Presenter",
-      "text": "メインのスクリプト入力フィールドにナレーションテキストを入力します。例えば、ナウ レッツ トーク アバウト リップ シンク。イット ミーンズ マイ マウス ムーブズ アロング ウィズ マイ ボイス、などです。",
+      "text": "話す内容、画像生成プロンプトを入力します。ここでは、次のページのように入力します。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Enter narration text <br> ナレーションテキストを入力",
-          "",
-          "> Now let's talk about lip sync. It means my mouth moves along with my voice...",
-          "",
-          "> それではリップシンクについて説明しましょう。これは私の口が声に合わせて動くことを意味します...",
-          "",
+          "### Enter narration text <br> 話す内容を入力",
+          "",          "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide04/images/screenshot_01_08.png?raw=true\" alt=\"Enter Text\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide04/images/screenshot_01_10.png?raw=true\" alt=\"Enter Text\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "イメージ ジェネレーション プロンプトフィールドで、シーンを説明します。キャラクターの顔ではなく、キャラクターの服装と背景のみを説明する必要があります。例えば、イン マウンテン クライミング ギア、オン ア ロッキー トレイル ウィズ グリーン フォレスト ビハインド、デイライト、などです。",
+      "text": "今回は、このように入力し、画像生成ボタンをクリックして画像を生成します。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Enter Image Generation Prompt <br> 画像生成プロンプトを入力",
+          "### Enter narration text and Image Generation Prompt <br> 話す内容と画像生成プロンプトを入力",
+          "",
+          "**Narration text / 話す内容:**",
+          "",
+          "> Now let's talk about lip sync. It means my mouth moves along with my voice — just like this! When we use lip sync, it makes characters feel more alive and expressive.",
+          "",
+          "> (和訳)リップシンクについてお話ししましょう。リップシンクとは、私の口が声に合わせて動くことです――ちょうどこのように！リップシンクを使うと、キャラクターがより生き生きと表情豊かになります。",
+          "",
+          "**Image Generation Prompt / 画像生成プロンプト:**",
           "",
           "> in mountain climbing gear, on a rocky trail with green forest behind, daylight.",
           "",
-          "> 登山用の服装で、緑の森を背景にした岩の多いトレイルに立っている、日中",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide04/images/screenshot_01_10.png?raw=true\" alt=\"Image Prompt\" width=\"80%\">",
-          "</div>"
+          "> (和訳)登山ウェアを着て、背後に緑の森が広がる岩場の多いトレイルにいる、昼間"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "生成ボタンをクリックして画像を生成します。静止画像が作成され、プレビューエリアに表示されます。",
+      "text": "画像が作成され、プレビューエリアに表示されます。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -227,7 +248,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "スクリプトと画像の準備ができたので、リップシンクアニメーションを生成できます。ムービー プロンプトフィールドの下にある、リップシンクチェックボックスをチェックします。",
+      "text": "話す内容と画像の準備ができたので、リップシンク動画を生成できます。リップシンクのチェックボックスをチェックします。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -241,7 +262,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "リップシンクチェックボックスの横に表示される生成ボタンをクリックします。システムが音声と対応するリップシンクアニメーションの生成を開始します。",
+      "text": "リップシンクチェックボックスの横に表示される生成ボタンをクリックします。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -255,7 +276,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "リップシンク付きのアニメーション動画が、ビデオ プレビューエリアに表示されます。プレビューをクリックすると、より大きなプレイヤーが開き、生成された音声と同期してキャラクターが話すのを見ることができます。",
+      "text": "リップシンク付きのアニメーション動画が、プレビューエリアに表示されます。冒頭でお見せしたリップシンク動画をもう一度確認してみましょう。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -268,58 +289,14 @@
       }
     },
     {
-      "speaker": "Presenter",
-      "text": "最後に、動画の完成とダウンロードについて説明します。",
+      "speaker": "",
+      "text": "",
       "image": {
-        "type": "markdown",
-        "markdown": [
-          "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
-          "",
-          "## 4. Finalizing and Downloading the Video <br> 4. 動画の完成とダウンロード",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "最後に、完全な動画ファイルをレンダリングします。右側の、クリエイト ビデオ、スラッシュ、ウォッチ ビデオ、パネルにある、メインの、ジェネレート ビデオボタンをクリックします。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Click Generate Video button <br> ジェネレート ビデオボタンをクリック",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide04/images/screenshot_08_54.png?raw=true\" alt=\"Generate Video\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "最終動画がレンダリングされ、ムービー プレビュープレイヤーに表示されます。プレイをクリックして最終出力を確認します。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Final video preview <br> 最終動画のプレビュー",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide04/images/screenshot_09_09.png?raw=true\" alt=\"Movie Preview\" width=\"80%\">",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "ダウンロード エムピーフォーボタンをクリックして、動画ファイルをコンピューターに保存します。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Download MP4 <br> MP4をダウンロード",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide04/images/screenshot_09_37.png?raw=true\" alt=\"Download MP4\" width=\"80%\">",
-          "</div>"
-        ]
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/guide/guide04/movies/ani.mov"
+        }
       }
     },
     {
@@ -332,16 +309,12 @@
           "",
           "English",
           "- **Replicate API Token Required**: Lip-sync functionality requires a valid Replicate API Token configured in Settings",
-          "- **Character Setup First**: Apply a style template that includes a character before generating lip-sync videos",
           "- **Two-Step Process**: First generate the character image, then generate the lip-sync animation",
-          "- **Simple Prompts**: Only describe the character's clothing and background, not the face",
           "- **Professional Results**: Create dynamic videos where characters speak in perfect sync with audio narration",
           "",
           "日本語",
           "- **Replicate API Tokenが必要**: リップシンク機能を使用するには、設定で有効なReplicate API Tokenの設定が必要",
-          "- **キャラクター設定を最初に**: リップシンク動画を生成する前に、キャラクターを含むスタイルテンプレートを適用",
           "- **2段階のプロセス**: まずキャラクター画像を生成し、次にリップシンクアニメーションを生成",
-          "- **シンプルなプロンプト**: キャラクターの服装と背景のみを説明し、顔は説明しない",
           "- **プロフェッショナルな結果**: 音声ナレーションと完全に同期してキャラクターが話すダイナミックな動画を作成"
         ]
       }
