@@ -268,6 +268,97 @@
     },
     {
       "speaker": "Presenter",
+      "text": "最後に、キャラクターを直接追加する方法について説明します。画像生成プロンプトと画像アップロードの2つがあります。ここでは、画像生成プロンプトを使った方法を説明します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
+          "",
+          "## 3. Adding Characters Directly <br> 3. キャラクターを直接追加する",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "キャラクタータブで、キーを入力し、画像生成プロンプトを選択して、追加ボタンを押します。ここでは、キーを「pet」とします。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Enter key and add character <br> キーを入力してキャラクターを追加",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_00_16.png?raw=true\" alt=\"Add Character\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "画像生成プロンプトを入力して、生成ボタンを押します。ここでは、「An animal that would likely be with X's official character Ani. Output in anime style.」と入力します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Enter image generation prompt <br> 画像生成プロンプトを入力",
+          "",
+          "> An animal that would likely be with X's official character Ani. Output in anime style.",
+          "",
+          "> (和訳) Xの公式キャラクター、Aniと一緒にいそうな動物。アニメ風で出力。",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_00_31.png?raw=true\" alt=\"Enter Prompt\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "このようなキャラクターが生成されました。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Generated pet character <br> 生成されたペットキャラクター",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_01_10.png?raw=true\" alt=\"Generated Character\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "ビートタブに戻り、キャラクター画像で、「ani」と「pet」の両方にチェックが入っていることを確認します。画像生成プロンプトに、「Ani and a pet running around together in the forest」と入力して、生成ボタンを押します。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Select both characters and generate <br> 両方のキャラクターを選択して生成",
+          "",
+          "> Ani and a pet running around together in the forest",
+          "",
+          "> (和訳) Aniとペットが森の中で一緒に走り回っている",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_01_50.png?raw=true\" alt=\"Select Characters\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "生成が完了しました。先ほどの「ani」と「pet」の両方が一緒に写っている画像が生成されています。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Generated image with both characters <br> 両方のキャラクターが写った生成画像",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_02_04.png?raw=true\" alt=\"Final Image\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
       "text": "最後に、重要なポイントについて説明します。スタイルテンプレートは、特定の一貫したキャラクターの読み込みを含む、数十の設定を一度に構成できる強力なショートカットです。キャラクター機能を使用することは、複数のシーン全体で同じキャラクターの外観を維持する最良の方法です。キャラクターがビートに事前選択されている場合、イメージ ジェネレーション プロンプトで背景、アクション、または環境を説明するだけで済みます。エーアイは選択したキャラクターをシーンに自動的に追加します。生成された画像にキャラクターが表示されない場合は、ビートタブに戻り、キャラクター イメージボックスで正しいキャラクターがチェックされていることを確認してください。",
       "image": {
         "type": "markdown",
