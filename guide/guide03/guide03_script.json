@@ -236,23 +236,34 @@
           "### Enter simple prompt: in the forest <br> シンプルなプロンプトを入力: in the forest (和訳: 森の中)",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_45.png?raw=true\" alt=\"Enter Prompt\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_02_31.png?raw=true\" alt=\"Enter Prompt\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "生成ボタンをクリックして、画像の生成を開始します。生成された画像がプレビューボックスに表示されます。プロンプトで説明した森の背景に、事前定義された、アニ、キャラクターが正しく配置されています。",
+      "text": "生成された画像がプレビューボックスに表示されます。",
       "image": {
         "type": "markdown",
         "markdown": [
           "### Generated image with character <br> キャラクター付き生成画像",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_02_31.png?raw=true\" alt=\"Generated Image\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_02_33.png?raw=true\" alt=\"Generated Image\" width=\"80%\">",
           "</div>"
         ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "プロンプトで説明した森の背景に、事前定義された、アニ、キャラクターが正しく配置されています。",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/blob/main/guide/guide03/images/ani_in_forest.png?raw=true"
+        }
       }
     },
     {
