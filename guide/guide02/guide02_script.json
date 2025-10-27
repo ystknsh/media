@@ -53,7 +53,29 @@
     },
     {
       "speaker": "Presenter",
-      "text": "まず、初期設定について説明します。この動画では、画像生成にはOpenAIを、動画生成にはGoogleを用いた例で解説します。",
+      "text": "この動画を見終わる頃には、このような画像や、",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/blob/main/guide/guide02/images/method_a-b.png?raw=true"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "このような動画生成ができるようになります。この例では写実的なものですが、イラストやアニメなど、様々なスタイルで生成が可能です。",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/guide/guide02/movies/method_b.mp4"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "それでは、初期設定について説明します。この動画では、画像生成にはOpenAIを、動画生成にはGoogleを用いた例で解説します。",
       "image": {
         "type": "markdown",
         "markdown": [
