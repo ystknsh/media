@@ -299,7 +299,43 @@
     },
     {
       "speaker": "Presenter",
-      "text": "画像生成プロンプトを入力して、生成ボタンを押します。ここでは、'An animal that would likely be with X's official character Ani. Output in anime style.' と入力します。",
+      "text": "画像生成プロンプトを入力して、生成ボタンを押します。ここでは、",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Enter image generation prompt <br> 画像生成プロンプトを入力",
+          "",
+          "> An animal that would likely be with X's official character Ani. Output in anime style.",
+          "",
+          "> (和訳) Xの公式キャラクター、Aniと一緒にいそうな動物。アニメ風で出力。",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_00_31.png?raw=true\" alt=\"Enter Prompt\" width=\"60%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "An animal that would likely be with X's official character Ani. Output in anime style.",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Enter image generation prompt <br> 画像生成プロンプトを入力",
+          "",
+          "> An animal that would likely be with X's official character Ani. Output in anime style.",
+          "",
+          "> (和訳) Xの公式キャラクター、Aniと一緒にいそうな動物。アニメ風で出力。",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_00_31.png?raw=true\" alt=\"Enter Prompt\" width=\"60%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "と入力します。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -370,7 +406,7 @@
           "### Generated image with both characters <br> 両方のキャラクターが写った生成画像",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/ani_with_pet.png.png?raw=true\" alt=\"Final Image\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/ani_with_pet.png?raw=true\" alt=\"Final Image\" width=\"80%\">",
           "</div>"
         ]
       }
