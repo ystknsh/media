@@ -401,14 +401,11 @@
       "speaker": "Presenter",
       "text": "先ほどの「ani」と「pet」の両方が一緒に写っている画像が生成されています。",
       "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Generated image with both characters <br> 両方のキャラクターが写った生成画像",
-          "",
-          "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/ani_with_pet.png?raw=true\" alt=\"Final Image\" width=\"80%\">",
-          "</div>"
-        ]
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/blob/main/guide/guide03/images/ani_with_pet.png?raw=true"
+        }
       }
     },
     {
@@ -421,18 +418,14 @@
           "",
           "English",
           "- **Style Templates**: Automatically configure character settings along with other parameters",
-          "- **Direct Character Setup**: Can also add characters directly in the Character tab without using templates",
-          "- **Two Methods**: Add characters via image generation prompt or image upload",
+          "- **Direct Character Setup**: Can add characters directly in the Character tab (via image generation prompt or upload)",
           "- **Character Consistency**: Maintains the same character appearance across multiple scenes",
-          "- **Minimal Prompts**: Only describe the background and situation when characters are pre-selected",
           "- **Multiple Characters**: Can select multiple characters to appear together in one scene",
           "",
           "日本語",
           "- **スタイルテンプレート**: キャラクター設定を含む各種パラメータを自動的に構成",
-          "- **直接キャラクター設定**: テンプレートを使わずキャラクタータブから直接追加も可能",
-          "- **2つの方法**: 画像生成プロンプトまたは画像アップロードでキャラクターを追加",
+          "- **直接キャラクター設定**: キャラクタータブから直接追加も可能（画像生成プロンプトまたはアップロード）",
           "- **一貫性の維持**: 複数シーンで同じキャラクターの外観を維持",
-          "- **最小限のプロンプト**: キャラクター選択済みの場合は背景とシチュエーションのみ記述",
           "- **複数キャラクター**: 複数のキャラクターを選択して1つのシーンに登場させることが可能"
         ]
       }
