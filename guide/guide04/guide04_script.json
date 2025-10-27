@@ -47,7 +47,7 @@
           "",
           "- Initial Setup / 初期設定",
           "- Generating the Character Image / キャラクター画像の生成",
-          "- Generating the Lip-Sync Video / リップシンク動画の生成",
+          "- Generating the Lip-Sync Video / リップシンク動画の生成"
         ]
       }
     },
@@ -190,7 +190,7 @@
         "type": "markdown",
         "markdown": [
           "### Enter narration text <br> 話す内容を入力",
-          "",          "",
+          "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide04/images/screenshot_01_10.png?raw=true\" alt=\"Enter Text\" width=\"80%\">",
           "</div>"
