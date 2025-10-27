@@ -64,7 +64,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "このような動画生成ができるようになります。この例では写実的なものですが、イラストやアニメなど、様々なスタイルで生成が可能です。",
+      "text": "このような動画生成ができるようになります。イラストやアニメなど、様々なスタイルでも生成可能です。",
       "image": {
         "type": "movie",
         "source": {
@@ -417,8 +417,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Key Points",
-          "### 重要なポイント",
+          "### Key Points <br> 重要なポイント",
           "",
           "English",
           "- **Method A & B**: Generate image with Image Generation Prompt first, then specify animation with Movie Prompt (or leave blank)",
