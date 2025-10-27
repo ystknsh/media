@@ -306,7 +306,7 @@
           "> (和訳) Xの公式キャラクター、Aniと一緒にいそうな動物。アニメ風で出力。",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_00_31.png?raw=true\" alt=\"Enter Prompt\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_00_31.png?raw=true\" alt=\"Enter Prompt\" width=\"60%\">",
           "</div>"
         ]
       }
@@ -320,7 +320,7 @@
           "### Generated pet character <br> 生成されたペットキャラクター",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_01_10.png?raw=true\" alt=\"Generated Character\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_01_10.png?raw=true\" alt=\"Generated Character\" width=\"60%\">",
           "</div>"
         ]
       }
@@ -338,44 +338,62 @@
           "> (和訳) Aniとペットが森の中で一緒に走り回っている",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_01_50.png?raw=true\" alt=\"Select Characters\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_01_50.png?raw=true\" alt=\"Select Characters\" width=\"60%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "生成が完了しました。先ほどの「ani」と「pet」の両方が一緒に写っている画像が生成されています。",
+      "text": "生成が完了しました。",
       "image": {
         "type": "markdown",
         "markdown": [
           "### Generated image with both characters <br> 両方のキャラクターが写った生成画像",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_02_04.png?raw=true\" alt=\"Final Image\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot2_02_00.png?raw=true\" alt=\"Final Image\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "最後に、重要なポイントについて説明します。スタイルテンプレートは、特定の一貫したキャラクターの読み込みを含む、数十の設定を一度に構成できる強力なショートカットです。キャラクター機能を使用することは、複数のシーン全体で同じキャラクターの外観を維持する最良の方法です。キャラクターがビートに事前選択されている場合、イメージ ジェネレーション プロンプトで背景、アクション、または環境を説明するだけで済みます。エーアイは選択したキャラクターをシーンに自動的に追加します。生成された画像にキャラクターが表示されない場合は、ビートタブに戻り、キャラクター イメージボックスで正しいキャラクターがチェックされていることを確認してください。",
+      "text": "先ほどの「ani」と「pet」の両方が一緒に写っている画像が生成されています。",
+      "image": {
+        "type": "markdown",
+        "markdown": [
+          "### Generated image with both characters <br> 両方のキャラクターが写った生成画像",
+          "",
+          "<div align=\"center\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/ani_with_pet.png.png?raw=true\" alt=\"Final Image\" width=\"80%\">",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "最後に、重要なポイントをまとめます。キャラクター設定機能を使うことで、複数のシーンで一貫したキャラクターを維持しながら、様々な状況での画像を簡単に生成できます。",
       "image": {
         "type": "markdown",
         "markdown": [
           "### Key Points <br> 重要なポイント",
           "",
           "English",
-          "- **Automatic Setup**: Style Templates configure dozens of settings at once, including loading specific, consistent characters",
-          "- **Character Consistency**: Using the Character feature maintains the same character appearance across multiple scenes",
-          "- **Minimal Prompts Needed**: When a character is pre-selected, you only need to describe the background, action, or environment",
-          "- **Troubleshooting**: If your character doesn't appear, confirm that the correct character is checked in the Character Image box",
+          "- **Style Templates**: Automatically configure character settings along with other parameters",
+          "- **Direct Character Setup**: Can also add characters directly in the Character tab without using templates",
+          "- **Two Methods**: Add characters via image generation prompt or image upload",
+          "- **Character Consistency**: Maintains the same character appearance across multiple scenes",
+          "- **Minimal Prompts**: Only describe the background and situation when characters are pre-selected",
+          "- **Multiple Characters**: Can select multiple characters to appear together in one scene",
           "",
           "日本語",
-          "- **自動設定**: スタイルテンプレートは、特定の一貫したキャラクターの読み込みを含む、数十の設定を一度に構成",
-          "- **キャラクターの一貫性**: キャラクター機能を使用すると、複数のシーン全体で同じキャラクターの外観を維持",
-          "- **最小限のプロンプト**: キャラクターが事前選択されている場合、背景、アクション、または環境のみを説明",
-          "- **トラブルシューティング**: キャラクターが表示されない場合は、キャラクター イメージボックスで正しいキャラクターがチェックされているか確認"
+          "- **スタイルテンプレート**: キャラクター設定を含む各種パラメータを自動的に構成",
+          "- **直接キャラクター設定**: テンプレートを使わずキャラクタータブから直接追加も可能",
+          "- **2つの方法**: 画像生成プロンプトまたは画像アップロードでキャラクターを追加",
+          "- **一貫性の維持**: 複数シーンで同じキャラクターの外観を維持",
+          "- **最小限のプロンプト**: キャラクター選択済みの場合は背景とシチュエーションのみ記述",
+          "- **複数キャラクター**: 複数のキャラクターを選択して1つのシーンに登場させることが可能"
         ]
       }
     }
