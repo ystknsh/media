@@ -46,8 +46,8 @@
           "## 応用: キャラクター設定",
           "",
           "- Applying a Style Template / スタイルテンプレートの適用",
-          "- Reviewing the Automatic Character Setup / 自動キャラクター設定の確認",
-          "- Generating a Scene with the Pre-set Character / 事前設定されたキャラクターでシーン生成"
+          "- Generating Images with Character / キャラクターを使った画像生成",
+          "- Adding Characters Directly / キャラクターを直接追加する"
         ]
       }
     },
@@ -81,8 +81,12 @@
         "markdown": [
           "### Character Consistency Across Beats <br> 複数ビートでの一貫性",
           "",
-          "キャラクター設定により:",
+          "English",
+          "- Maintain the same character appearance",
+          "- Freely change backgrounds and outfits",
+          "- Create consistent stories across multiple scenes",
           "",
+          "日本語",
           "- 同じキャラクターの外観を維持",
           "- 背景や服装を自由に変更",
           "- 複数シーンで統一感のあるストーリーを作成"
@@ -295,7 +299,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "画像生成プロンプトを入力して、生成ボタンを押します。ここでは、「An animal that would likely be with X's official character Ani. Output in anime style.」と入力します。",
+      "text": "画像生成プロンプトを入力して、生成ボタンを押します。ここでは、'An animal that would likely be with X's official character Ani. Output in anime style.' と入力します。",
       "image": {
         "type": "markdown",
         "markdown": [
