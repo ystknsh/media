@@ -132,11 +132,11 @@
     },
     {
       "speaker": "Presenter",
-      "text": "リストから事前設定されたスタイルを選択します。ここでは、「Presentation by Ani」を選択します。",
+      "text": "ドロップダウンメニューからスタイルを選択します。ここでは、「Presentation by Ani」を選択します。なお、上級モードでは選択できるスタイルが増えます。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Choose a pre-configured style <br> 事前設定されたスタイルを選択",
+          "### Choose a style from dropdown menu <br> ドロップダウンメニューからスタイルを選択",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_12_8.png?raw=true\" alt=\"Select Style\" width=\"80%\">",
@@ -146,7 +146,7 @@
     },
     {
       "speaker": "Presenter",
-      "text": "「スタイルを適用」ボタンをクリックして設定を読み込みます。声の設定、画像生成設定など、さまざまなフィールドが自動的に入力されていることがわかります。",
+      "text": "「スタイルを適用」ボタンをクリックして設定を読み込みます。",
       "image": {
         "type": "markdown",
         "markdown": [
@@ -188,24 +188,11 @@
     },
     {
       "speaker": "Presenter",
-      "text": "次に、キャラクター設定の確認について説明します。",
+      "text": "スタイルテンプレートにキャラクター設定が含まれている場合、キャラクターも自動的に設定されます。これはキャラクタータブで確認できます。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
-          "",
-          "## 2. Reviewing the Automatic Character Setup <br> 2. キャラクター設定の確認",
-          "</div>"
-        ]
-      }
-    },
-    {
-      "speaker": "Presenter",
-      "text": "スタイルテンプレートを適用すると、関連するキャラクターも設定されます。これはキャラクタータブで確認できます。ここでは、キャラクター、アニ、読み込まれています。",
-      "image": {
-        "type": "markdown",
-        "markdown": [
-          "### Review Character Setup in Character tab <br> キャラクタータブで設定を確認",
+          "### Character tab (if included in template) <br> キャラクタータブ（テンプレートに含まれる場合）",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_32.png?raw=true\" alt=\"Character Tab\" width=\"80%\">",
@@ -215,42 +202,38 @@
     },
     {
       "speaker": "Presenter",
-      "text": "続いて、事前設定されたキャラクターでシーンを生成する方法について説明します。",
+      "text": "続いて、設定したキャラクターを使って画像を生成してみましょう。ビートタブに戻ります。",
       "image": {
         "type": "markdown",
         "markdown": [
           "<div style='display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
           "",
-          "## 3. Generating a Scene with the Pre-set Character <br> 3. 事前設定されたキャラクターでシーン生成",
+          "## 2. Generating Images with Character <br> 2. キャラクター設定を使った画像生成",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "スタイルとキャラクターが設定されると、非常にシンプルなプロンプトで画像を生成できます。システムは設定したキャラクターを自動的に使用します。ビートタブに戻ります。キャラクター イメージセクションで、スタイルテンプレートのキャラクター、アニ、がすでに選択されていることに注目してください。",
+      "text": "キャラクターが設定されると、非常にシンプルなプロンプトで画像を生成できます。「キャラクター画像」で、アニ、がすでに選択されていることに注目してください。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Return to BEAT tab <br> BEATタブに戻る",
+          "### Confirm \"ani\" is selected in Character Image <br> キャラクター画像で \"ani\" が選択されていることを確認",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_35.png?raw=true\" alt=\"BEAT Tab\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_42.png?raw=true\" alt=\"BEAT Tab\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "メインの入力フィールドにスクリプトまたはナレーションテキストを入力します。イメージ ジェネレーション プロンプトフィールドには、背景や設定の簡単な説明のみを入力します。キャラクターを説明する必要はありません。この例では、プロンプトは単純に、イン ザ フォレスト、です。",
+      "text": "話す内容を入力します。画像生成プロンプトには背景や設定の簡単な説明のみを入力します。キャラクターを説明する必要はありません。ここでは、単純に、in the forest として画像生成してみましょう。",
       "image": {
         "type": "markdown",
         "markdown": [
-          "### Enter simple prompt <br> シンプルなプロンプトを入力",
-          "",
-          "> in the forest.",
-          "",
-          "> 森の中",
+          "### Enter simple prompt: in the forest <br> シンプルなプロンプトを入力: in the forest (和訳: 森の中)",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/guide/guide03/images/screenshot_00_45.png?raw=true\" alt=\"Enter Prompt\" width=\"80%\">",
