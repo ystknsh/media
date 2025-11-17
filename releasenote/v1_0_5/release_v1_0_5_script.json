@@ -29,7 +29,9 @@
     }
   },
   "textSlideParams": {
-    "cssStyles": "h3 {margin-left: 20px; margin-top: 20px}"
+    "cssStyles": [
+      "h3 {margin-left: 20px; margin-top: 20px}"
+    ]
   },
   "beats": [
     {
@@ -39,89 +41,98 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
+          "",
           "# 🎉 MulmoCast v1.0.5 Released!",
           "# 🎉 MulmoCast v1.0.5 リリース！",
           "",
-          "## November 15, 2025 / 2025年11月15日"
+          "## November 15, 2025",
+          "## 2025年11月15日",
+          "",
+          "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "1つ目。ファイルの読み込みに、クリックで開く「ファイル選択画面」も使えるようになりました。",
+      "text": "1つ目。ファイルの読み込みに、クリックで開く「ファイル選択画面」も使えるようになりました。従来のドラッグアンドドロップ方式も引き続き利用可能です。",
       "image": {
         "type": "markdown",
         "markdown": [
           "### 1. Click-to-Open File Selection Dialog for Loading Files <br> 1. クリックで開くファイル選択画面でファイルを読み込み",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_01.png?raw=true\" alt=\"File Selection Dialog 1\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_03.png?raw=true\" alt=\"File Selection Dialog 1\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "ファイル選択画面では、視覚的にファイルを選択できます。",
+      "text": "BEATタブの画像または動画ファイルを読み込む際に使用できます。",
       "image": {
         "type": "markdown",
         "markdown": [
+          "### BEAT tab > Image or Movie file <br> BEAT タブ > 画像または動画ファイル",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_02.png?raw=true\" alt=\"File Selection Dialog 2\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_01.png?raw=true\" alt=\"File Selection Dialog 2\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "従来のドラッグアンドドロップ方式も引き続き使用可能です。",
+      "text": "また、素材タブの画像ファイルを読み込む際にも使用できます。",
       "image": {
         "type": "markdown",
         "markdown": [
+          "### Materials > image file <br> 素材 > 画像ファイル",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_03.png?raw=true\" alt=\"File Selection Dialog 3\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_02.png?raw=true\" alt=\"File Selection Dialog 3\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "2つ目。プロジェクト内で生成した画像・動画を、他のビートで再利用できるようになりました。",
+      "text": "2つ目。プロジェクト内で生成した画像・動画を、他のビートで再利用できるようになりました。ファイル選択画面から、プロジェクト内で既に生成された素材を選択できます。",
       "image": {
         "type": "markdown",
         "markdown": [
           "### 2. Reuse Generated Images and Videos Across BEATs <br> 2. プロジェクト内の生成済み画像・動画を他のBEATで再利用可能",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_01.png?raw=true\" alt=\"Reuse Generated Media 1\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_03.png?raw=true\" alt=\"Reuse Generated Media 1\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "ファイル選択画面から、プロジェクト内で既に生成された素材を選択できます。",
+      "text": "こちらも、BEATタブの画像または動画ファイルを読み込む際に使用できます。",
       "image": {
         "type": "markdown",
         "markdown": [
+          "### BEAT tab > Image or Movie file <br> BEAT タブ > 画像または動画ファイル",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_02.png?raw=true\" alt=\"Reuse Generated Media 2\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_01.png?raw=true\" alt=\"Reuse Generated Media 2\" width=\"80%\">",
           "</div>"
         ]
       }
     },
     {
       "speaker": "Presenter",
-      "text": "これにより、素材の再生成をせずに効率的にプロジェクトを編集できます。",
+      "text": "また、素材タブの画像ファイルを読み込む際にも使用できます。",
       "image": {
         "type": "markdown",
         "markdown": [
+          "### Materials > image file <br> 素材 > 画像ファイル",
           "",
           "<div align=\"center\">",
-          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_03.png?raw=true\" alt=\"Reuse Generated Media 3\" width=\"80%\">",
+          "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_02.png?raw=true\" alt=\"Reuse Generated Media 3\" width=\"80%\">",
           "</div>"
         ]
       }
@@ -132,7 +143,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "### 3. Specify BEAT Duration in Advanced Mode Image Generation <br> 3. 上級モードの画像生成プロンプトでBEAT時間を指定可能",
+          "### 3. Specify BEAT Duration in Image Generation Prompt <br> 3. 画像生成プロンプトでBEAT時間を指定可能",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat3_01.png?raw=true\" alt=\"BEAT Duration 1\" width=\"80%\">",
@@ -142,10 +153,11 @@
     },
     {
       "speaker": "Presenter",
-      "text": "各ビートの表示時間を細かく調整できるようになり、より柔軟な動画制作が可能になりました。",
+      "text": "動画生成の有無で設定可能な時間が異なります。",
       "image": {
         "type": "markdown",
         "markdown": [
+          "### 3. Specify BEAT Duration in Image Generation Prompt (Advanced Mode) <br> 3. 画像生成プロンプトでBEAT時間を指定可能（上級モード）",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat3_02.png?raw=true\" alt=\"BEAT Duration 2\" width=\"80%\">",
@@ -187,12 +199,16 @@
       "image": {
         "type": "markdown",
         "markdown": [
+          "<div style='display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; text-align: center;'>",
+          "",
           "# Thank You!",
           "# ありがとうございました！",
           "",
           "## MulmoCast v1.0.5",
           "",
-          "### Happy Creating! / 楽しい創作を！"
+          "### Happy Creating! / 楽しい創作を！",
+          "",
+          "</div>"
         ]
       }
     }
