@@ -1,0 +1,316 @@
+{
+  "script": {
+    "$mulmocast": {
+      "version": "1.1",
+      "credit": "closing"
+    },
+    "canvasSize": {
+      "width": 1280,
+      "height": 720
+    },
+    "speechParams": {
+      "speakers": {
+        "Presenter": {
+          "displayName": {
+            "ja": "ナレーター"
+          },
+          "voiceId": "nova"
+        }
+      }
+    },
+    "imageParams": {
+      "provider": "openai",
+      "images": {}
+    },
+    "movieParams": {
+      "provider": "mock",
+      "model": "",
+      "transition": {
+        "type": "fade",
+        "duration": 1
+      }
+    },
+    "soundEffectParams": {
+      "provider": "replicate"
+    },
+    "textSlideParams": {
+      "cssStyles": "h3 {margin-left: 20px; margin-top: 20px}"
+    },
+    "audioParams": {
+      "padding": 0.3,
+      "introPadding": 1,
+      "closingPadding": 0.8,
+      "outroPadding": 1,
+      "bgmVolume": 0.2,
+      "audioVolume": 1,
+      "suppressSpeech": false
+    },
+    "title": "MulmoCast v1.0.5 リリースノート",
+    "description": "MulmoCast v1.0.5の新機能と改善点を紹介するリリースノート動画",
+    "lang": "ja",
+    "beats": [
+      {
+        "speaker": "Presenter",
+        "text": "マルモキャスト バージョン1.0.5をリリースしました！このバージョンでは、5つの主な更新があります。",
+        "id": "title-slide",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "# 🎉 MulmoCast v1.0.5 Released!",
+            "# 🎉 MulmoCast v1.0.5 リリース！",
+            "",
+            "## November 15, 2025 / 2025年11月15日"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "1つ目。ファイルの読み込みに、クリックで開く「ファイル選択画面」も使えるようになりました。",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "### 1. Click-to-Open File Selection Dialog for Loading Files <br> 1. クリックで開くファイル選択画面でファイルを読み込み",
+            "",
+            "<div align=\"center\">",
+            "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_01.png?raw=true\" alt=\"File Selection Dialog 1\" width=\"80%\">",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "ファイル選択画面では、視覚的にファイルを選択できます。",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "",
+            "<div align=\"center\">",
+            "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_02.png?raw=true\" alt=\"File Selection Dialog 2\" width=\"80%\">",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "従来のドラッグアンドドロップ方式も引き続き使用可能です。",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "",
+            "<div align=\"center\">",
+            "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_03.png?raw=true\" alt=\"File Selection Dialog 3\" width=\"80%\">",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "2つ目。プロジェクト内で生成した画像・動画を、他のビートで再利用できるようになりました。",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "### 2. Reuse Generated Images and Videos Across BEATs <br> 2. プロジェクト内の生成済み画像・動画を他のBEATで再利用可能",
+            "",
+            "<div align=\"center\">",
+            "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_01.png?raw=true\" alt=\"Reuse Generated Media 1\" width=\"80%\">",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "ファイル選択画面から、プロジェクト内で既に生成された素材を選択できます。",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "",
+            "<div align=\"center\">",
+            "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_02.png?raw=true\" alt=\"Reuse Generated Media 2\" width=\"80%\">",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "これにより、素材の再生成をせずに効率的にプロジェクトを編集できます。",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "",
+            "<div align=\"center\">",
+            "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_03.png?raw=true\" alt=\"Reuse Generated Media 3\" width=\"80%\">",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "3つ目。上級モードの「画像生成プロンプト」で、各ビートの時間を指定できるようになりました。",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "### 3. Specify BEAT Duration in Advanced Mode Image Generation <br> 3. 上級モードの画像生成プロンプトでBEAT時間を指定可能",
+            "",
+            "<div align=\"center\">",
+            "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat3_01.png?raw=true\" alt=\"BEAT Duration 1\" width=\"80%\">",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "各ビートの表示時間を細かく調整できるようになり、より柔軟な動画制作が可能になりました。",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "",
+            "<div align=\"center\">",
+            "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat3_02.png?raw=true\" alt=\"BEAT Duration 2\" width=\"80%\">",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "4つ目。「キャラ」タブの名称を「素材」タブへ変更しました。",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "### 4. Character Tab Renamed to Materials Tab <br> 4. 「キャラ」タブを「素材」タブへ名称変更",
+            "",
+            "<div align=\"center\">",
+            "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat4_01.png?raw=true\" alt=\"Materials Tab\" width=\"80%\">",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "5つ目。マーメイドにプリセットテンプレートを追加しました。",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "### 5. Preset Templates Added for Mermaid Diagrams <br> 5. Mermaid図表用のプリセットテンプレートを追加",
+            "",
+            "<div align=\"center\">",
+            "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat5_01.png?raw=true\" alt=\"Mermaid Templates\" width=\"80%\">",
+            "</div>"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "マルモキャスト バージョン1.0.5をお楽しみください！",
+        "image": {
+          "type": "markdown",
+          "markdown": [
+            "# Thank You!",
+            "# ありがとうございました！",
+            "",
+            "## MulmoCast v1.0.5",
+            "",
+            "### Happy Creating! / 楽しい創作を！"
+          ]
+        }
+      },
+      {
+        "speaker": "Presenter",
+        "text": "",
+        "id": "mulmo_credit",
+        "image": {
+          "type": "image",
+          "source": {
+            "kind": "url",
+            "url": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/images/mulmocast_credit.png"
+          }
+        },
+        "audio": {
+          "type": "audio",
+          "source": {
+            "kind": "url",
+            "url": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/audio/silent300.mp3"
+          }
+        }
+      }
+    ]
+  },
+  "filename": "release_v1_0_5_script",
+  "beats": [
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/title-slide.png",
+      "hasMovieAudio": false,
+      "markdown": "# 🎉 MulmoCast v1.0.5 Released!\n# 🎉 MulmoCast v1.0.5 リリース！\n\n## November 15, 2025 / 2025年11月15日",
+      "html": "<h1>🎉 MulmoCast v1.0.5 Released!</h1>\n<h1>🎉 MulmoCast v1.0.5 リリース！</h1>\n<h2>November 15, 2025 / 2025年11月15日</h2>\n"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/1p.png",
+      "hasMovieAudio": false,
+      "markdown": "### 1. Click-to-Open File Selection Dialog for Loading Files <br> 1. クリックで開くファイル選択画面でファイルを読み込み\n\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_01.png?raw=true\" alt=\"File Selection Dialog 1\" width=\"80%\">\n</div>",
+      "html": "<h3>1. Click-to-Open File Selection Dialog for Loading Files <br> 1. クリックで開くファイル選択画面でファイルを読み込み</h3>\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_01.png?raw=true\" alt=\"File Selection Dialog 1\" width=\"80%\">\n</div>"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/2p.png",
+      "hasMovieAudio": false,
+      "markdown": "\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_02.png?raw=true\" alt=\"File Selection Dialog 2\" width=\"80%\">\n</div>",
+      "html": "<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_02.png?raw=true\" alt=\"File Selection Dialog 2\" width=\"80%\">\n</div>"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/3p.png",
+      "hasMovieAudio": false,
+      "markdown": "\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_03.png?raw=true\" alt=\"File Selection Dialog 3\" width=\"80%\">\n</div>",
+      "html": "<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat1_03.png?raw=true\" alt=\"File Selection Dialog 3\" width=\"80%\">\n</div>"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/4p.png",
+      "hasMovieAudio": false,
+      "markdown": "### 2. Reuse Generated Images and Videos Across BEATs <br> 2. プロジェクト内の生成済み画像・動画を他のBEATで再利用可能\n\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_01.png?raw=true\" alt=\"Reuse Generated Media 1\" width=\"80%\">\n</div>",
+      "html": "<h3>2. Reuse Generated Images and Videos Across BEATs <br> 2. プロジェクト内の生成済み画像・動画を他のBEATで再利用可能</h3>\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_01.png?raw=true\" alt=\"Reuse Generated Media 1\" width=\"80%\">\n</div>"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/5p.png",
+      "hasMovieAudio": false,
+      "markdown": "\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_02.png?raw=true\" alt=\"Reuse Generated Media 2\" width=\"80%\">\n</div>",
+      "html": "<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_02.png?raw=true\" alt=\"Reuse Generated Media 2\" width=\"80%\">\n</div>"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/6p.png",
+      "hasMovieAudio": false,
+      "markdown": "\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_03.png?raw=true\" alt=\"Reuse Generated Media 3\" width=\"80%\">\n</div>",
+      "html": "<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat2_03.png?raw=true\" alt=\"Reuse Generated Media 3\" width=\"80%\">\n</div>"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/7p.png",
+      "hasMovieAudio": false,
+      "markdown": "### 3. Specify BEAT Duration in Advanced Mode Image Generation <br> 3. 上級モードの画像生成プロンプトでBEAT時間を指定可能\n\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat3_01.png?raw=true\" alt=\"BEAT Duration 1\" width=\"80%\">\n</div>",
+      "html": "<h3>3. Specify BEAT Duration in Advanced Mode Image Generation <br> 3. 上級モードの画像生成プロンプトでBEAT時間を指定可能</h3>\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat3_01.png?raw=true\" alt=\"BEAT Duration 1\" width=\"80%\">\n</div>"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/8p.png",
+      "hasMovieAudio": false,
+      "markdown": "\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat3_02.png?raw=true\" alt=\"BEAT Duration 2\" width=\"80%\">\n</div>",
+      "html": "<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat3_02.png?raw=true\" alt=\"BEAT Duration 2\" width=\"80%\">\n</div>"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/9p.png",
+      "hasMovieAudio": false,
+      "markdown": "### 4. Character Tab Renamed to Materials Tab <br> 4. 「キャラ」タブを「素材」タブへ名称変更\n\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat4_01.png?raw=true\" alt=\"Materials Tab\" width=\"80%\">\n</div>",
+      "html": "<h3>4. Character Tab Renamed to Materials Tab <br> 4. 「キャラ」タブを「素材」タブへ名称変更</h3>\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat4_01.png?raw=true\" alt=\"Materials Tab\" width=\"80%\">\n</div>"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/10p.png",
+      "hasMovieAudio": false,
+      "markdown": "### 5. Preset Templates Added for Mermaid Diagrams <br> 5. Mermaid図表用のプリセットテンプレートを追加\n\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat5_01.png?raw=true\" alt=\"Mermaid Templates\" width=\"80%\">\n</div>",
+      "html": "<h3>5. Preset Templates Added for Mermaid Diagrams <br> 5. Mermaid図表用のプリセットテンプレートを追加</h3>\n<div align=\"center\">\n<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat5_01.png?raw=true\" alt=\"Mermaid Templates\" width=\"80%\">\n</div>"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/11p.png",
+      "hasMovieAudio": false,
+      "markdown": "# Thank You!\n# ありがとうございました！\n\n## MulmoCast v1.0.5\n\n### Happy Creating! / 楽しい創作を！",
+      "html": "<h1>Thank You!</h1>\n<h1>ありがとうございました！</h1>\n<h2>MulmoCast v1.0.5</h2>\n<h3>Happy Creating! / 楽しい創作を！</h3>\n"
+    },
+    {
+      "imageFile": "/Users/yasutaka/Documents/mac-workspace/mulmo/media/releasenote/v1_0_5/output/images/release_v1_0_5_script/mulmo_credit.png",
+      "hasMovieAudio": false
+    }
+  ]
+}
