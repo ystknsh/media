@@ -1,0 +1,213 @@
+{
+  "version": "1.1",
+  "multiLingual": {
+    "title-slide": {
+      "cacheKey": "19ff4d288fe924e24a0f8807ba3fc193c3d244975dbffb90f03c884e661d1f07",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "We have released MarmoCast version 1.0.5! There are five major updates in this version.",
+          "texts": [
+            "We have released MarmoCast version 1.0.5! There are five major updates in this version."
+          ],
+          "ttsTexts": [
+            "We have released MarmoCast version 1.0.5! There are five major updates in this version."
+          ],
+          "cacheKey": "19ff4d288fe924e24a0f8807ba3fc193c3d244975dbffb90f03c884e661d1f07"
+        }
+      }
+    },
+    "__index__1": {
+      "cacheKey": "f88a64484c0340d1dc4f58399cd0bd9becb478172787283d25f9e1d79a34d4ae",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "First, a \"file selection screen\" that opens with a click can now be used for loading files. The traditional drag-and-drop method is still available.",
+          "texts": [
+            "First, a \"file selection screen\" that opens with a click can now be used for loading files. The traditional drag-and-drop method is still available."
+          ],
+          "ttsTexts": [
+            "First, a \"file selection screen\" that opens with a click can now be used for loading files. The traditional drag-and-drop method is still available."
+          ],
+          "cacheKey": "f88a64484c0340d1dc4f58399cd0bd9becb478172787283d25f9e1d79a34d4ae"
+        }
+      }
+    },
+    "__index__2": {
+      "cacheKey": "99e73ba010b7082a9ffb7a3b8f132e3100787643fa52d4141db5a7c89ce18ce6",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "You can use this when importing image or video files to the BEAT tab.",
+          "texts": [
+            "You can use this when importing image or video files to the BEAT tab."
+          ],
+          "ttsTexts": [
+            "You can use this when importing image or video files to the BEAT tab."
+          ],
+          "cacheKey": "99e73ba010b7082a9ffb7a3b8f132e3100787643fa52d4141db5a7c89ce18ce6"
+        }
+      }
+    },
+    "__index__3": {
+      "cacheKey": "29f980fc3ea4dbe1229624688d3a6fd55eecf3891ca9e804311b777fce952048",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "It can also be used when loading image files in the material tab.",
+          "texts": [
+            "It can also be used when loading image files in the material tab."
+          ],
+          "ttsTexts": [
+            "It can also be used when loading image files in the material tab."
+          ],
+          "cacheKey": "29f980fc3ea4dbe1229624688d3a6fd55eecf3891ca9e804311b777fce952048"
+        }
+      }
+    },
+    "__index__4": {
+      "cacheKey": "86aa6e659b4de93e01de81d6480f5efb932bc6e58095324641bfbfd7223d6f52",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "Second point. Images and videos generated within a project can now be reused in other beats. You can select materials that have already been generated within the project from the file selection screen.",
+          "texts": [
+            "Second point. Images and videos generated within a project can now be reused in other beats. You can select materials that have already been generated within the project from the file selection screen."
+          ],
+          "ttsTexts": [
+            "Second point. Images and videos generated within a project can now be reused in other beats. You can select materials that have already been generated within the project from the file selection screen."
+          ],
+          "cacheKey": "86aa6e659b4de93e01de81d6480f5efb932bc6e58095324641bfbfd7223d6f52"
+        }
+      }
+    },
+    "__index__5": {
+      "cacheKey": "9d66d263ab9ffaab73f902d2ae530442632dd1469799ecb0af76be4fe94b1ac4",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "This can also be used when loading image or video files in the BEAT tab.",
+          "texts": [
+            "This can also be used when loading image or video files in the BEAT tab."
+          ],
+          "ttsTexts": [
+            "This can also be used when loading image or video files in the BEAT tab."
+          ],
+          "cacheKey": "9d66d263ab9ffaab73f902d2ae530442632dd1469799ecb0af76be4fe94b1ac4"
+        }
+      }
+    },
+    "__index__6": {
+      "cacheKey": "29f980fc3ea4dbe1229624688d3a6fd55eecf3891ca9e804311b777fce952048",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "You can also use it when loading image files in the materials tab.",
+          "texts": [
+            "You can also use it when loading image files in the materials tab."
+          ],
+          "ttsTexts": [
+            "You can also use it when loading image files in the materials tab."
+          ],
+          "cacheKey": "29f980fc3ea4dbe1229624688d3a6fd55eecf3891ca9e804311b777fce952048"
+        }
+      }
+    },
+    "__index__7": {
+      "cacheKey": "a416d6a495bdb9c5f1e591b464087b46c67fb481336446af3b20757a80296288",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "Third, in the advanced mode \"image generation prompt,\" you can now specify the time for each beat.",
+          "texts": [
+            "Third, in the advanced mode \"image generation prompt,\" you can now specify the time for each beat."
+          ],
+          "ttsTexts": [
+            "Third, in the advanced mode \"image generation prompt,\" you can now specify the time for each beat."
+          ],
+          "cacheKey": "a416d6a495bdb9c5f1e591b464087b46c67fb481336446af3b20757a80296288"
+        }
+      }
+    },
+    "__index__8": {
+      "cacheKey": "3b98c4ec0614d9414696c115b62484276e67593a044ee642c7ce76182ba4acfe",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "The time that can be set differs depending on whether video generation is enabled.",
+          "texts": [
+            "The time that can be set differs depending on whether video generation is enabled."
+          ],
+          "ttsTexts": [
+            "The time that can be set differs depending on whether video generation is enabled."
+          ],
+          "cacheKey": "3b98c4ec0614d9414696c115b62484276e67593a044ee642c7ce76182ba4acfe"
+        }
+      }
+    },
+    "__index__9": {
+      "cacheKey": "dfbd6af0e5d7ce4723409c056e002d09ad4a6b223c7ee441c76b63297cdcad2d",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "Fourth: The name of the \"Character\" tab has been changed to the \"Materials\" tab.",
+          "texts": [
+            "Fourth: The name of the \"Character\" tab has been changed to the \"Materials\" tab."
+          ],
+          "ttsTexts": [
+            "Fourth: The name of the \"Character\" tab has been changed to the \"Materials\" tab."
+          ],
+          "cacheKey": "dfbd6af0e5d7ce4723409c056e002d09ad4a6b223c7ee441c76b63297cdcad2d"
+        }
+      }
+    },
+    "__index__10": {
+      "cacheKey": "b829aaf020d79b8ee9a66692f3aa29595597a0c3f7c9458de30c2929e95a6f41",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "Fifth, added preset templates to Mermaid.",
+          "texts": [
+            "Fifth, added preset templates to Mermaid."
+          ],
+          "ttsTexts": [
+            "Fifth, added preset templates to Mermaid."
+          ],
+          "cacheKey": "b829aaf020d79b8ee9a66692f3aa29595597a0c3f7c9458de30c2929e95a6f41"
+        }
+      }
+    },
+    "__index__11": {
+      "cacheKey": "5ab64e9686e723d37179d87a64e11ba52993200d3e85903d1ac758e9d2933fb4",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "Enjoy MarmoCast version 1.0.5!",
+          "texts": [
+            "Enjoy MarmoCast version 1.0.5!"
+          ],
+          "ttsTexts": [
+            "Enjoy MarmoCast version 1.0.5!"
+          ],
+          "cacheKey": "5ab64e9686e723d37179d87a64e11ba52993200d3e85903d1ac758e9d2933fb4"
+        }
+      }
+    },
+    "mulmo_credit": {
+      "cacheKey": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "multiLingualTexts": {
+        "en": {
+          "lang": "en",
+          "text": "",
+          "texts": [
+            ""
+          ],
+          "ttsTexts": [
+            ""
+          ],
+          "cacheKey": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    }
+  }
+}
