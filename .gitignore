@@ -104,8 +104,6 @@ guide/*/output/
 guide/**/*.mp4
 !guide/guide02/movies/*.mp4
 
-# release note output folders
-releasenote/*/output/
-
-# release MP4 files
+# release MP4/MP3 files (but track PDF, MD, JSON)
 releasenote/**/*.mp4
+releasenote/**/*.mp3
