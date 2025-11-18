@@ -143,7 +143,7 @@
       "image": {
         "type": "markdown",
         "markdown": [
-          "### 3. Specify BEAT Duration in Image Generation Prompt <br> 3. 画像生成プロンプトでBEAT時間を指定可能",
+          "### 3. Specify BEAT Duration in Image Generation Prompt (Advanced Mode) <br> 3. 画像生成プロンプトでBEAT時間を指定可能（上級モード）",
           "",
           "<div align=\"center\">",
           "<img src=\"https://github.com/ystknsh/media/blob/main/releasenote/v1_0_5/images/beat3_01.png?raw=true\" alt=\"BEAT Duration 1\" width=\"80%\">",
