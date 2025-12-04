@@ -84,6 +84,17 @@
       }
     },
     {
+      "text": "WEBP",
+      "speaker": "Presenter",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/blob/main/media_test/macoro_image.webp?raw=true"
+        }
+      }
+    },
+    {
       "text": "MOV",
       "speaker": "Presenter",
       "image": {
@@ -168,6 +179,39 @@
         "source": {
           "kind": "url",
           "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.webm"
+        }
+      }
+    },
+    {
+      "text": "GIF",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.gif"
+        }
+      }
+    },
+    {
+      "text": "AVI",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.avi"
+        }
+      }
+    },
+    {
+      "text": "MKV",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.mkv"
         }
       }
     }
