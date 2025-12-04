@@ -1,0 +1,175 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "canvasSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "displayName": {
+          "ja": "ナレーター"
+        },
+        "voiceId": "nova"
+      }
+    }
+  },
+  "imageParams": {
+    "provider": "openai",
+    "images": {}
+  },
+  "movieParams": {
+    "provider": "mock",
+    "model": "",
+    "transition": {
+      "type": "fade",
+      "duration": 1
+    }
+  },
+  "soundEffectParams": {
+    "provider": "replicate"
+  },
+  "textSlideParams": {
+    "cssStyles": [
+      "h3 {margin-left: 20px; margin-top: 20px}"
+    ]
+  },
+  "audioParams": {
+    "padding": 0.3,
+    "introPadding": 1,
+    "closingPadding": 0.8,
+    "outroPadding": 1,
+    "bgmVolume": 0.2,
+    "audioVolume": 1,
+    "suppressSpeech": false
+  },
+  "title": "Media Test Files",
+  "description": "Testing various media file formats",
+  "lang": "ja",
+  "beats": [
+    {
+      "text": "JPEG",
+      "speaker": "Presenter",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/blob/main/media_test/macoro_image.jpeg?raw=true"
+        }
+      }
+    },
+    {
+      "text": "JPG",
+      "speaker": "Presenter",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/blob/main/media_test/macoro_image.jpg?raw=true"
+        }
+      }
+    },
+    {
+      "text": "PNG",
+      "speaker": "Presenter",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/blob/main/media_test/macoro_image.png?raw=true"
+        }
+      }
+    },
+    {
+      "text": "MOV",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.mov"
+        }
+      }
+    },
+    {
+      "text": "MP2T",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.mp2t"
+        }
+      }
+    },
+    {
+      "text": "MP4",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.mp4"
+        }
+      }
+    },
+    {
+      "text": "MPEG",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.mpeg"
+        }
+      }
+    },
+    {
+      "text": "MPG",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.mpg"
+        }
+      }
+    },
+    {
+      "text": "OGG",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.ogg"
+        }
+      }
+    },
+    {
+      "text": "OGV",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.ogv"
+        }
+      }
+    },
+    {
+      "text": "WEBM",
+      "speaker": "Presenter",
+      "image": {
+        "type": "movie",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.webm"
+        }
+      }
+    }
+  ]
+}
