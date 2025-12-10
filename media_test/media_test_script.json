@@ -214,6 +214,132 @@
           "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_movie.mkv"
         }
       }
+    },
+    {
+      "text": "MP3",
+      "speaker": "Presenter",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Audio",
+          "subtitle": "MP3"
+        }
+      },
+      "audio": {
+        "type": "audio",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_audio.mp3"
+        }
+      }
+    },
+    {
+      "text": "WAV",
+      "speaker": "Presenter",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Audio",
+          "subtitle": "WAV"
+        }
+      },
+      "audio": {
+        "type": "audio",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_audio.wav"
+        }
+      }
+    },
+    {
+      "text": "OGG Audio",
+      "speaker": "Presenter",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Audio",
+          "subtitle": "OGG"
+        }
+      },
+      "audio": {
+        "type": "audio",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_audio.ogg"
+        }
+      }
+    },
+    {
+      "text": "M4A",
+      "speaker": "Presenter",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Audio",
+          "subtitle": "M4A"
+        }
+      },
+      "audio": {
+        "type": "audio",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_audio.m4a"
+        }
+      }
+    },
+    {
+      "text": "AAC",
+      "speaker": "Presenter",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Audio",
+          "subtitle": "AAC"
+        }
+      },
+      "audio": {
+        "type": "audio",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_audio.aac"
+        }
+      }
+    },
+    {
+      "text": "FLAC",
+      "speaker": "Presenter",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Audio",
+          "subtitle": "FLAC"
+        }
+      },
+      "audio": {
+        "type": "audio",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_audio.flac"
+        }
+      }
+    },
+    {
+      "text": "WEBM Audio",
+      "speaker": "Presenter",
+      "image": {
+        "type": "textSlide",
+        "slide": {
+          "title": "Audio",
+          "subtitle": "WEBM"
+        }
+      },
+      "audio": {
+        "type": "audio",
+        "source": {
+          "kind": "url",
+          "url": "https://github.com/ystknsh/media/raw/refs/heads/main/media_test/macoro_audio.webm"
+        }
+      }
     }
   ]
 }
