@@ -118,3 +118,7 @@ filmfes2025/output/*
 # rejected ElevenLabs requests for the One Year Apart BGM
 promo/filmfes_one_year/bgm/bgm-plan.json
 promo/filmfes_one_year/bgm/bgm-prompt.json
+
+# remake: scratch output of scene checks
+promo/filmfes2025_remake/scenes/_shots/
+promo/filmfes2025_remake/_probe_prompt.json

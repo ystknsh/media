@@ -9,7 +9,7 @@ a "2025 REMAKE" slate.
 
 Run from anywhere: python3 build.py
 Beat lengths and the cue times inside each beat follow the Gemini narration measured on
-2026-09-29 (TIMING / CUES below). If a line changes, regenerate its audio, measure its
+2026-09-29 with the single narrator (TIMING / CUES below). If a line changes, regenerate its audio, measure its
 pauses again, and move that beat's cues.
 """
 import json
@@ -21,37 +21,34 @@ FPS = 30
 
 # (beat id, speaker, narration) — polished from the 2025 English version
 LINES = [
-    ("open", "Presenter", "Imagine it, and you can see it. When AI can make movies, what will you make?"),
-    ("title", "CoHost", "AI Short Film Fes 2025. Powered by MulmoCast."),
-    ("theme", "Presenter", "The theme: films made by people and AI, together."),
+    ("open", "Narrator", "Imagine it, and you can see it. When AI can make movies, what will you make?"),
+    ("title", "Narrator", "AI Short Film Fes 2025. Powered by MulmoCast."),
+    ("theme", "Narrator", "The theme: films made by people and AI, together."),
     # "Any genre. Three minutes or less. Anyone can enter." came back with no audio from Gemini twice
-    ("rules", "CoHost", "Any genre, up to three minutes long, and open to everyone."),
-    ("prizes", "CoHost", "There's prize money for the Grand Prix, plus Visual, Animation, Documentary, and Promotion awards."),
-    ("judge", "Presenter", "Chairing the jury: Satoshi Nakajima of Singularity Society."),
-    ("criteria", "CoHost", "Entries are judged on creativity, structure, technical craft, and how convincingly you build a world with AI."),
-    ("dates", "CoHost", "Send in your film before the deadline. Winners are announced online."),
-    ("experiment", "Presenter", "It's a film festival. It's also an experiment."),
-    ("open_q", "CoHost", "Technology and ethics are still full of open questions. That's exactly where the surprises are."),
-    ("prompt", "Presenter", "Type a prompt. It's the first step in turning your imagination into film. Now, bring your world to life."),
-    ("together", "CoHost", "The future of film begins with you and AI, together."),
-    ("close", "Presenter", "AI Short Film Fes 2025, powered by MulmoCast. Take your first step onto the screen."),
+    ("rules", "Narrator", "Any genre, up to three minutes long, and open to everyone."),
+    ("prizes", "Narrator", "There's prize money for the Grand Prix, plus Visual, Animation, Documentary, and Promotion awards."),
+    ("judge", "Narrator", "Chairing the jury: Satoshi Nakajima of Singularity Society."),
+    ("criteria", "Narrator", "Entries are judged on creativity, structure, technical craft, and how convincingly you build a world with AI."),
+    ("dates", "Narrator", "Send in your film before the deadline. Winners are announced online."),
+    ("experiment", "Narrator", "It's a film festival. It's also an experiment."),
+    ("open_q", "Narrator", "Technology and ethics are still full of open questions. That's exactly where the surprises are."),
+    ("prompt", "Narrator", "Type a prompt. It's the first step in turning your imagination into film. Now, bring your world to life."),
+    ("together", "Narrator", "The future of film begins with you and AI, together."),
+    ("close", "Narrator", "AI Short Film Fes 2025, powered by MulmoCast. Take your first step onto the screen."),
 ]
 TEXT = {bid: (spk, txt) for bid, spk, txt in LINES}
 
 SPEAKERS = {
-    "Presenter": {
-        "provider": "gemini", "model": "gemini-3.1-flash-tts-preview", "voiceId": "Aoede",
-        "speechOptions": {"instruction": "A warm, confident film-festival trailer host. Clear and unhurried, with a sense of wonder."},
-    },
-    "CoHost": {
+    # one narrator, the same voice as One Year Apart (../filmfes_one_year/build.py)
+    "Narrator": {
         "provider": "gemini", "model": "gemini-3.1-flash-tts-preview", "voiceId": "Charon",
-        "speechOptions": {"instruction": "A clear, upbeat festival announcer. Crisp and friendly, never shouting."},
+        "speechOptions": {"instruction": "A calm, warm documentary narrator. Unhurried, intimate, slightly wry. Leave a small breath between sentences."},
     },
 }
 
 # seconds per beat (>= its narration) and, per beat, the start time of each spoken phrase (measured)
-TIMING = {"slate_in": 2.4, "open": 8.3, "title": 5.4, "theme": 6.3, "rules": 5.2, "prizes": 7.0, "judge": 5.9, "criteria": 8.3, "dates": 5.0, "experiment": 5.6, "open_q": 7.6, "prompt": 9.7, "together": 5.4, "close": 9.9, "slate_out": 4.0}
-CUES = {"open": [0.34, 1.83, 3.76, 6.69], "title": [0.33, 3.36], "theme": [0.33, 1.86, 5.23], "rules": [0.33, 1.36, 2.99], "prizes": [1.5, 2.9, 3.6, 4.5, 5.5], "judge": [0.38, 1.99, 3.83], "criteria": [1.6, 2.52, 3.43, 4.6], "dates": [0.3, 2.96], "experiment": [0.6, 3.9], "open_q": [0.32, 4.7], "prompt": [0.33, 1.87, 5.37], "together": [0.32, 3.0], "close": [0.33, 3.93, 6.54]}
+TIMING = {"slate_in": 2.4, "open": 7.8, "title": 6.7, "theme": 6.1, "rules": 6.1, "prizes": 9.7, "judge": 5.8, "criteria": 10.7, "dates": 6.0, "experiment": 5.2, "open_q": 9.6, "prompt": 11.2, "together": 7.0, "close": 11.3, "slate_out": 4.0}
+CUES = {"open": [0.48, 1.79, 3.74, 6.18], "title": [0.34, 4.15], "theme": [0.33, 1.77, 5.04], "rules": [0.31, 1.68, 3.97], "prizes": [1.9, 3.8, 4.87, 6.21, 7.8], "judge": [0.33, 1.82, 3.67], "criteria": [2.0, 3.36, 4.81, 6.38], "dates": [0.3, 3.68], "experiment": [0.6, 3.68], "open_q": [0.34, 6.28], "prompt": [0.44, 2.51, 7.49], "together": [0.3, 4.09], "close": [0.34, 4.54, 7.63]}
 ORDER = ["slate_in", "open", "title", "theme", "rules", "prizes", "judge", "criteria", "dates",
          "experiment", "open_q", "prompt", "together", "close", "slate_out"]
 TOTAL_FRAMES = sum(math.floor(TIMING[b] * FPS) for b in ORDER)
@@ -158,6 +155,39 @@ const dotTex = (rgb) => {
   const r = g.createRadialGradient(32, 32, 0, 32, 32, 32); r.addColorStop(0, 'rgba(255,255,255,1)'); r.addColorStop(0.3, `rgba(${rgb},.8)`); r.addColorStop(1, `rgba(${rgb},0)`);
   g.fillStyle = r; g.fillRect(0, 0, 64, 64); return new THREE.CanvasTexture(c);
 };
+// scene.environment = RoomEnvironment lights every material with a bright white studio; dark floors and props then
+// read as pale grey clay (round-1 renders). On the first render of each scene, keep the reflections only on bright
+// metals (gold, chrome) and turn them almost off everywhere else.
+const tameEnv = (scene) => {
+  scene.traverse((o) => {
+    const mats = o.material ? (Array.isArray(o.material) ? o.material : [o.material]) : [];
+    mats.forEach((m) => {
+      if (!m.isMeshStandardMaterial) return;
+      const lum = m.color ? 0.2126 * m.color.r + 0.7152 * m.color.g + 0.0722 * m.color.b : 0;
+      m.envMapIntensity = m.metalness >= 0.75 && lum > 0.25 ? Math.max(m.envMapIntensity, 1.8) : Math.min(m.envMapIntensity, 0.12);
+    });
+  });
+};
+// RoomEnvironment is a light grey room, so gold reflected grey and read as olive bronze. Scenes that ask for it get a
+// dark studio instead: a black sphere with a warm softbox, a cool strip and a small hot key — contrasty reflections.
+class StudioEnv extends THREE.Scene {
+  constructor() {
+    super();
+    const add = (geo, rgb, k, pos, look) => { const m = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ color: new THREE.Color(rgb).multiplyScalar(k), side: THREE.DoubleSide })); m.position.set(...pos); m.lookAt(...look); this.add(m); };
+    this.add(new THREE.Mesh(new THREE.SphereGeometry(30, 32, 16), new THREE.MeshBasicMaterial({ color: 0x07090d, side: THREE.BackSide })));
+    add(new THREE.PlaneGeometry(14, 9), 0xffe2b0, 5, [-12, 10, 10], [0, 0, 0]);   // warm softbox, upper left front
+    add(new THREE.PlaneGeometry(3, 18), 0x9fd8ff, 4, [14, 2, -4], [0, 0, 0]);    // cool strip, right
+    add(new THREE.PlaneGeometry(3, 3), 0xffffff, 14, [2, 4, 16], [0, 0, 0]);     // small hot key, front
+    add(new THREE.PlaneGeometry(26, 4), 0xffc070, 1.2, [0, -12, 0], [0, 0, 0]);  // warm bounce from below
+  }
+  dispose() { this.traverse((o) => { if (o.geometry) o.geometry.dispose(); if (o.material) o.material.dispose(); }); }  // RoomEnvironment has it; scenes call it
+}
+if (THREE.RoomEnvironment) THREE.RoomEnvironment = StudioEnv;
+const _r3render = THREE.WebGLRenderer.prototype.render;
+THREE.WebGLRenderer.prototype.render = function (scene, camera) {
+  if (scene && scene.isScene && !scene.__tamed) { tameEnv(scene); scene.__tamed = true; }
+  return _r3render.call(this, scene, camera);
+};
 const makeRenderer = (id, bloom = [0.8, 0.3, 0.95]) => {
   const R = new THREE.WebGLRenderer({ canvas: el(id), antialias: true, alpha: false, preserveDrawingBuffer: true });
   R.setPixelRatio(1); R.setSize(1280, 720, false); R.toneMapping = THREE.NoToneMapping;
@@ -169,15 +199,34 @@ const makeRenderer = (id, bloom = [0.8, 0.3, 0.95]) => {
 """
 
 
+def scene_files(bid):
+    """scenes/<bid>.html + scenes/<bid>.js, when present, replace the beat's inline html/script.
+    The .js may start with `// requires: objects/Water, objects/Sky` — extra three.js r147 examples/js
+    modules to load for that beat only (loading every module on every beat made page loads time out)."""
+    h, j = os.path.join(HERE, "scenes", bid + ".html"), os.path.join(HERE, "scenes", bid + ".js")
+    if not (os.path.exists(h) and os.path.exists(j)):
+        return None
+    html, script = open(h).read(), open(j).read()
+    first = script.split("\n", 1)[0]
+    extra = [m.strip() for m in first.split("requires:", 1)[1].split(",")] if first.startswith("// requires:") else []
+    cdn = "".join(f"<script src='https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/{m}.js'></script>" for m in extra if m)
+    return cdn, html, script
+
+
 def B(bid, html, script, three=False):
     """One animated beat. `bf` is a black layer used by beatFade()."""
+    sf = scene_files(bid)
+    extra_cdn = ""
+    if sf:
+        extra_cdn, html, script = sf
+        three = True
     b = {
         "id": bid,
         "duration": TIMING[bid],
         "image": {
             "type": "html_tailwind",
             "animation": {"fps": FPS},
-            "html": FONTS + CSS + (THREE_CDN if three else "") + "<div class='stage'>" + html + "<div id='bf' class='full' style='background:#000;opacity:0'></div></div>",
+            "html": FONTS + CSS + (THREE_CDN if three else "") + extra_cdn + "<div class='stage'>" + html + "<div id='bf' class='full' style='background:#000;opacity:0'></div></div>",
             "script": COMMON_JS + (THREE_JS if three else "") + f"const D = {TIMING[bid]}; const C = {json.dumps(CUES.get(bid, []))}; const TOTAL_FRAMES = {TOTAL_FRAMES};\n" + script,
         },
     }
@@ -827,7 +876,9 @@ if os.environ.get("ONLY"):
     deck["beats"] = [{"id": b, "speaker": TEXT[b][0], "text": TEXT[b][1], "image": {"type": "html_tailwind", "html": "<div></div>"}} for b in ORDER if b in keep]
     deck["audioParams"].pop("bgm")
 
-with open(os.path.join(HERE, "filmfes2025_remake.json"), "w") as f:
+# OUT=<dir> writes the script there instead (same basename, so the narration cache is shared) — keeps the
+# narration batches from overwriting the script other tools are reading
+with open(os.path.join(os.environ.get("OUT", HERE), "filmfes2025_remake.json"), "w") as f:
     json.dump(deck, f, ensure_ascii=False, indent=1)
     f.write("\n")
 print("ok", TOTAL_FRAMES, "frames", round(TOTAL_FRAMES / FPS, 2), "s")
