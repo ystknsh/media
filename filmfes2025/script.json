@@ -1,0 +1,158 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "canvasSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "displayName": {
+          "en": "Presenter"
+        },
+        "voiceId": "shimmer",
+        "provider": "openai"
+      },
+      "Co-Host": {
+        "displayName": {
+          "en": "Co-Host"
+        },
+        "voiceId": "ash",
+        "provider": "openai"
+      }
+    }
+  },
+  "imageParams": {
+    "provider": "openai",
+    "images": {}
+  },
+  "movieParams": {
+    "provider": "google"
+  },
+  "soundEffectParams": {
+    "provider": "replicate"
+  },
+  "audioParams": {
+    "padding": 0.3,
+    "introPadding": 1,
+    "closingPadding": 0.8,
+    "outroPadding": 1,
+    "bgmVolume": 0.2,
+    "audioVolume": 1,
+    "suppressSpeech": false
+  },
+  "title": "Film Fes 2025 - Google",
+  "description": "mulmocast",
+  "lang": "ja",
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "想像しただけの世界が、映る。AIが映画を撮る時代に、私たちは何を撮る？",
+      "id": "cee51252-56dc-45b3-9fa8-fd50b786692a",
+      "imagePrompt": "黒背景に白いタイプが浮かび、文字 (AI Short Film Fes 2025) が粒子化して宇宙のように広がる。緩やかなエレクトロの立ち上がり。",
+      "moviePrompt": " "
+    },
+    {
+      "speaker": "Co-Host",
+      "text": "AIショートフィルムフェス 2025 – Powered by マルモキャスト、開幕です。",
+      "id": "2625d729-a1b1-4452-9eba-9440947fca6d",
+      "moviePrompt": "タイトルロゴ (AI Short Film Fes 2025) がライトリークとともに出現。抽象的な生成映像がうっすら背面で脈動。"
+    },
+    {
+      "speaker": "Presenter",
+      "text": "テーマは「AIと人間の共創による映像表現」。",
+      "id": "2480dd79-fa63-44c3-b131-47764f7eb384",
+      "imagePrompt": "金属製のロボットアームと人間の手が、\n硬質なガラス越しに互いへと伸びる瞬間。\n背景は暗くシンプルで、フォーカスは2本の腕に。\nロボットの金属は光を反射し、手前の人の皮膚は温かいトーン。\n光が交わる部分に、わずかに金色の輝きが走る。\nテーマは「AIと人間の共創」、静謐で映画的な印象。",
+      "moviePrompt": "1. 暗い背景に、人の手とロボットアームがそれぞれフレームの左右からゆっくり伸びてくる。  \n2. 指先が近づくにつれ、周囲の光が少しずつ強くなる。  \n3. 触れ合う瞬間、光が爆ぜて柔らかく広がり、2人を包み込む。  \n4. 握手した状態でカメラがゆっくり引き、光が金と青の粒子に変わって舞い上がる。  \n5. 背景にフェスのロゴが淡く浮かび、次のシーンへ。"
+    },
+    {
+      "speaker": "Co-Host",
+      "text": "ジャンルは自由。1本あたり3分以内。誰でも応募できます。",
+      "id": "78e0e667-2995-4c86-8657-d0f42578722e",
+      "imagePrompt": "4分割構成。すべてAIが創り出した架空の映像。\n左上：幻想的な抽象アート（流体のような色と形が混ざる）。\n右上：温かみのあるアニメ風のキャラクターが歩く草原。\n左下：架空の街で人々を取材するドキュメンタリー風シーン。\n右下：未来的な企業ロゴを紹介するプロモーション映像風。\n全体は4K質感、光のトーンを統一し映画祭の雰囲気で。",
+      "moviePrompt": "1. 架空のアート、アニメ、ドキュメンタリー、プロモーション風の4ショットを高速カット。  \n2. どれもAIが創り出した想像上の映像で構成されている。  "
+    },
+    {
+      "speaker": "Co-Host",
+      "text": "賞金総額は100万円。グランプリ50万円に加え、",
+      "id": "083eb680-65cc-442a-86f2-343625b184c2",
+      "imagePrompt": "",
+      "moviePrompt": "黒い背景に柔らかな金の光が漂う。\n細やかな粒子がゆっくりと舞い、夜空のようにきらめく。\n奥に淡く文字（GRAND PRIX）が浮かび上がり、静かに揺らめいている。\n派手さを抑えた、上品で映画祭らしいトーン。"
+    },
+    {
+      "speaker": "Co-Host",
+      "text": "ビジュアル、アニメーション、ドキュメンタリー、プロモーション各賞10万円。",
+      "id": "d94ee25b-379d-4b5d-94cf-7d5459c45b4a",
+      "imagePrompt": "五つのアワードカードがホログラムのように浮かんでいる。\n中央のカードは「GRAND PRIX」と金色で刻まれ、周囲に以下の4枚が配置されている：\n「VISUAL AWARD」「ANIMATION AWARD」「DOCUMENTARY AWARD」「PROMOTION AWARD」。\n背景は暗く、金と青のライトエフェクトが交差。カードの縁が光っている。",
+      "moviePrompt": "1. 各賞カードが順にスライドイン。 \n2. 金の光が中央の“GRAND PRIX”を強調\n3. 背景の粒子が拡散し、次のシーンへフェード。"
+    },
+    {
+      "speaker": "Presenter",
+      "text": "審査委員長は、Singularity Society 代表・なかじまさとし。",
+      "id": "274a1cad-50e5-431d-ba3c-5a6e2091f88c",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "path",
+          "path": "./upload_image/6/1761895571263.png"
+        }
+      }
+    },
+    {
+      "speaker": "Co-Host",
+      "text": "評価軸は、創造性、構成力、技術的完成度、そしてAIとともに描いた世界の説得力。",
+      "id": "65a85b5c-ebf8-440d-ab16-f6762179264a",
+      "moviePrompt": "1. 黒背景に抽象的なネットワークノードが浮かび上がる。  \n2. 文字「CREATIVITY」が光の粒とともにポップアップ。  \n3. 続いて文字「STRUCTURE」「TECHNICAL QUALITY」「PERSUASIVENESS」が順に出現。  \n4. それぞれのキーワードが発光し、線でつながり、ネットワーク全体が輝く。  \n5. 最後に4つの単語が中央に集まり、光の閃光で次のシーンへフェード。"
+    },
+    {
+      "speaker": "Co-Host",
+      "text": "応募期間は、11月30日まで。結果発表は12月13日土曜、オンラインで行います。",
+      "id": "905eea3e-79c4-4fa9-b6fc-be253f1db47b",
+      "moviePrompt": "1. ステージ中央のライトが点灯し、観客のシルエットが浮かび上がる。  \n2. カメラが少しパンアップし、上空に光の花びらや粒子が舞い始める。  \n3. 花火のような光の爆発とともに会場が明るくなり、音楽が盛り上がる。  \n4. 光の粒が「AI Short Film Fes 2025」のロゴを形作る。  \n5. ロゴがゆっくりと発光しながらフェードアウトして、次のシーンへ。"
+    },
+    {
+      "speaker": "Presenter",
+      "text": "これは映画祭であり、同時に“実験”でもある。",
+      "id": "f4052608-962f-40a7-b88b-cffd3f23187d",
+      "moviePrompt": "実験室のような光。フィルムリールと回路図が重なる二重露光。"
+    },
+    {
+      "speaker": "Co-Host",
+      "text": "技術も倫理も、まだ答えのない領域。だからこそ、驚きと可能性に満ちている。",
+      "id": "df28d8d2-dc7f-4c83-ac84-c0bae3a01527",
+      "imagePrompt": "木漏れ日の差す森の中の小径。\n手前に柔らかな土の道が続き、両脇には深い緑の松と草木。\n木々の間から遠くの山と青空が見える。\n午後の日差しが暖かく、穏やかな風を感じるような光。\n自然の静けさと広がりを感じる、リアルで映画的な風景。\n",
+      "moviePrompt": "迷路状のラインが開けて、広い地平に出るトランジション。"
+    },
+    {
+      "speaker": "Presenter",
+      "text": "プロンプトを入力する。それは、あなたの想像を形にする最初の行為。さあ、あなたの世界を立ち上げよう。",
+      "id": "eab994dc-b147-4b32-bc29-f6d5fa0c6c2d",
+      "imagePrompt": "黒い画面の中央に白いテキスト入力欄が浮かぶ。カーソルが点滅している。",
+      "moviePrompt": "1. 黒背景に入力欄が現れる。  \n2. テキストが一文字ずつ打たれていく：「At dawn by the seaside, particles of light melt into the waves」  \n3. 入力が完了した瞬間、入力欄と文字が粒子となって崩壊し、映像へと変わる。  \n4. 波打ち際の映像が生成され、光の粒が舞い上がる。"
+    },
+    {
+      "speaker": "Co-Host",
+      "text": "映像の未来は、あなたとAIの共創から始まる。",
+      "id": "343b34c8-9347-4a60-9cf6-4ea49a7761fd",
+      "imagePrompt": "柔らかな光に包まれた空間で、\n人のシルエットとAIの発光する姿が握手している。\nAIの身体は青と金の光のフラクタルで形作られ、\n接触部分から温かい光が広がる。\n背景は暗闇ではなく、淡い白と金のグラデーション。\n希望・協調・共創を感じさせる、明るく穏やかな印象。",
+      "moviePrompt": "人のシルエットとAIの発光フラクタルが握手する抽象表現。"
+    },
+    {
+      "speaker": "Presenter",
+      "text": "応募や詳しい情報は、公式サイトからチェック。",
+      "id": "9fe22067-aa53-4b14-a043-d9032240980e",
+      "imagePrompt": "https://www.mag2.com/events/ai-film-fes2025/\n\nとクリスタルのように屈折しながら表示",
+      "moviePrompt": " "
+    },
+    {
+      "speaker": "Co-Host",
+      "text": "AIショートフィルムフェス 2025 – パワード バイ マルモキャスト。あなたの一歩を、スクリーンへ。",
+      "id": "ac13ee20-4b8c-40c6-b342-45e5edf9307b",
+      "imagePrompt": "未来的な建造物の中に、大型のホログラフィックスクリーンが浮かぶ。\nメタリックなフレームに囲まれ、青白い光を放つUIエレメントが散りばめられている。\nスクリーン中央には「AI Short Film Fes 2025 – Powered by MulmoCast」のロゴが浮かび、周囲に複数の小さな映像サムネイルが映し出されている。\n背景は少し霞がかった空間ステージで、SF的な透明感がある。\n（アングル：正面やや上からの俯瞰）",
+      "moviePrompt": "1. 画面中央のホログラフィックスクリーンがふっと光り、起動音とともに映像が点灯。  \n2. 画面内に応募作品のモンタージュ（アニメ・ドキュメンタリー・アートなど）が次々と切り替わる。  \n3. HUD上を「CREATIVITY」「INNOVATION」「CO-CREATION」の単語が走査線のように流れる。  \n4. カメラがゆっくりズームアウトし、光の粒がスクリーン全体から立ち上がって拡散。  \n5. 最後にロゴ「AI Short Film Fes 2025 – Powered by MulmoCast」が中央に浮かび、光の尾を残してフェードアウト。"
+    }
+  ]
+}
