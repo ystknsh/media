@@ -107,3 +107,14 @@ guide/**/*.mp4
 # release MP4/MP3 files (but track PDF, MD, JSON)
 releasenote/**/*.mp4
 releasenote/**/*.mp3
+
+# Film Fes 2025 app project: only script.json and output/script_en.mp4 are tracked
+filmfes2025/meta.json
+filmfes2025/upload_image/
+filmfes2025/upload_reference_image/
+filmfes2025/output/*
+!filmfes2025/output/script_en.mp4
+
+# rejected ElevenLabs requests for the One Year Apart BGM
+promo/filmfes_one_year/bgm/bgm-plan.json
+promo/filmfes_one_year/bgm/bgm-prompt.json
