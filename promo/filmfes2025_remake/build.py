@@ -192,7 +192,10 @@ const makeRenderer = (id, bloom = [0.8, 0.3, 0.95]) => {
   const R = new THREE.WebGLRenderer({ canvas: el(id), antialias: true, alpha: false, preserveDrawingBuffer: true });
   R.setPixelRatio(1); R.setSize(1280, 720, false); R.toneMapping = THREE.NoToneMapping;
   const scene = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(35, 16 / 9, 0.1, 200);
-  const composer = new THREE.EffectComposer(R); composer.addPass(new THREE.RenderPass(scene, cam));
+  // `antialias: true` only covers drawing straight to the canvas; the composer renders into its own targets, which had
+  // no anti-aliasing, so thin tilted lines (the judge's gold frames) came out stair-stepped. 4x MSAA on those targets.
+  const rt = new THREE.WebGLRenderTarget(1280, 720, { samples: 4, type: THREE.HalfFloatType });
+  const composer = new THREE.EffectComposer(R, rt); composer.addPass(new THREE.RenderPass(scene, cam));
   composer.addPass(new THREE.UnrealBloomPass(new THREE.Vector2(1280, 720), bloom[0], bloom[1], bloom[2]));
   return { R, scene, cam, composer };
 };
