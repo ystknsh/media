@@ -1,0 +1,18 @@
+<canvas id="cl-world" class="full" width="1280" height="720"></canvas>
+<style>
+#cl-screen{position:absolute;left:0;top:0;width:960px;height:540px;transform-origin:0 0;backface-visibility:hidden;overflow:hidden;color:#f6e0a0;pointer-events:none}
+#cl-screen:before{content:'';position:absolute;inset:0;border:1px solid #7fd8ff55;box-sizing:border-box;background:linear-gradient(125deg,#7fd8ff09,transparent 45%,#e9c46a06)}
+#cl-filmstrip{position:absolute;left:52px;top:34px;display:flex;gap:14px}
+#cl-filmstrip canvas{width:160px;height:90px;border:1px solid #7fd8ff50}
+#cl-title{position:absolute;left:0;right:0;top:174px;text-align:center;opacity:0}
+#cl-title h1{font:900 76px/.99 'Inter Tight';letter-spacing:-.04em;margin:0}#cl-title h1 span{color:#7fd8ff}
+#cl-power{margin-top:28px;font:600 15px 'JetBrains Mono';letter-spacing:.17em;color:#b9d5df;opacity:0}
+#cl-meta{position:absolute;bottom:28px;left:44px;right:44px;display:flex;justify-content:space-between;font:400 11px 'JetBrains Mono';letter-spacing:.16em;color:#8ca5b1}
+#cl-step{position:absolute;bottom:49px;left:0;right:0;text-align:center;font:400 italic 35px 'Instrument Serif';color:#f3e8d0;text-shadow:0 2px 25px #000;opacity:0}
+</style>
+<div id="cl-screen">
+  <div id="cl-filmstrip"><canvas id="cl-film-0" width="320" height="180"></canvas><canvas id="cl-film-1" width="320" height="180"></canvas><canvas id="cl-film-2" width="320" height="180"></canvas><canvas id="cl-film-3" width="320" height="180"></canvas><canvas id="cl-film-4" width="320" height="180"></canvas></div>
+  <div id="cl-title"><h1><span>AI</span> SHORT FILM<br>FES 2025</h1><div id="cl-power">POWERED BY MULMOCAST</div></div>
+  <div id="cl-meta"><span>2025 REMAKE</span><span>IMAGINATION BECOMES CINEMA</span></div>
+</div>
+<div id="cl-step">Take your first step onto the screen.</div>

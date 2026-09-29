@@ -1,0 +1,21 @@
+<img id='tex_water' src='assets/waternormals.jpg' style='display:none' alt=''>
+<style>
+#prompt-ocean{opacity:1}
+#prompt-cover{background:radial-gradient(ellipse at 50% 48%,#14202a 0%,#080d14 46%,#05070b 80%)}
+#prompt-ui{position:absolute;left:180px;top:252px;width:920px}
+#prompt-label{font:400 12px 'JetBrains Mono';letter-spacing:.25em;color:#a6b5c0;margin-bottom:20px;display:flex;align-items:center;gap:12px}
+#prompt-label:before{content:'';width:6px;height:6px;border-radius:50%;background:#e9c46a;box-shadow:0 0 12px #e9c46a55}
+#prompt-box{height:184px;box-sizing:border-box;padding:28px 32px;border:1px solid #e5e1d7;border-radius:12px;background:#f3f0e8;box-shadow:0 28px 100px #0007}
+#prompt-copy{font:400 30px/48px 'Inter Tight';letter-spacing:0;color:#17232c;white-space:pre}
+#prompt-caret{display:inline-block;width:2px;height:30px;margin-left:3px;background:#a17932;vertical-align:-5px}
+#prompt-foot{margin-top:21px;color:#647581;font:400 10px 'JetBrains Mono';letter-spacing:.18em}
+</style>
+<canvas id="prompt-ocean" class="full" width="1280" height="720"></canvas>
+<div id="prompt-cover" class="full"></div>
+<div id="prompt-ui">
+  <div id="prompt-label">YOUR IMAGINATION / A FIRST FRAME</div>
+  <div id="prompt-box"><span id="prompt-copy"></span><span id="prompt-caret"></span></div>
+  <div id="prompt-foot">PROMPT</div>
+</div>
+<canvas id="prompt-light" class="full" width="1280" height="720" style="pointer-events:none"></canvas>
+<div class="full" style="pointer-events:none;box-shadow:inset 0 0 100px rgba(2,8,15,.15)"></div>
