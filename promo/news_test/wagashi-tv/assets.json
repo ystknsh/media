@@ -1,0 +1,56 @@
+{
+ "$mulmocast": {
+  "version": "1.1"
+ },
+ "canvasSize": {
+  "width": 1280,
+  "height": 720
+ },
+ "title": "wagashi-tv assets",
+ "lang": "ja",
+ "imageParams": {
+  "provider": "google",
+  "model": "gemini-3.1-flash-image-preview"
+ },
+ "speechParams": {
+  "speakers": {
+   "A": {
+    "voiceId": "Kore",
+    "isDefault": true,
+    "provider": "gemini"
+   }
+  }
+ },
+ "beats": [
+  {
+   "id": "img-closed-shop",
+   "text": "",
+   "duration": 1,
+   "imagePrompt": "Photorealistic Japanese TV news B-roll footage still, shot on a broadcast camera, natural light, shallow depth of field, 16:9, no on-screen text, no captions, no logos, no readable signs. A small old traditional Japanese wagashi confectionery shop in a quiet shopping street at dusk, wooden facade, the metal shutter pulled down, the noren curtain taken in, a white paper notice taped on the shutter (text not readable), a single street lamp starting to glow. Melancholy mood."
+  },
+  {
+   "id": "img-wagashi-tray",
+   "text": "",
+   "duration": 1,
+   "imagePrompt": "Photorealistic Japanese TV news B-roll footage still, shot on a broadcast camera, natural light, shallow depth of field, 16:9, no on-screen text, no captions, no logos, no readable signs. Close-up of assorted traditional Japanese wagashi on a black lacquer tray in a shop display case: daifuku, nerikiri flowers, yokan slices, dorayaki, soft warm light, glass reflections."
+  },
+  {
+   "id": "img-old-sign",
+   "text": "",
+   "duration": 1,
+   "imagePrompt": "Photorealistic Japanese TV news B-roll footage still, shot on a broadcast camera, natural light, shallow depth of field, 16:9, no on-screen text, no captions, no logos, no readable signs. A weathered dark wooden shop signboard hanging above the entrance of a century-old Japanese confectionery shop, carved characters worn down and not legible, aged tiled roof eaves, afternoon light."
+  },
+  {
+   "id": "img-craftsman",
+   "text": "",
+   "duration": 1,
+   "imagePrompt": "Photorealistic Japanese TV news B-roll footage still, shot on a broadcast camera, natural light, shallow depth of field, 16:9, no on-screen text, no captions, no logos, no readable signs. Close-up of the wrinkled hands of an elderly Japanese confectionery craftsman shaping a pink nerikiri flower with a wooden tool on a wooden board, flour dust, warm workshop light, face not shown."
+  },
+  {
+   "id": "img-tourists",
+   "text": "",
+   "duration": 1,
+   "imagePrompt": "Photorealistic Japanese TV news B-roll footage still, shot on a broadcast camera, natural light, shallow depth of field, 16:9, no on-screen text, no captions, no logos, no readable signs. Bright modern Japanese wagashi shop, foreign tourists happily choosing colorful modern-style wagashi (neo-wagashi) displayed in a glass case, a smiling clerk, cheerful daylight, faces softly out of focus."
+  }
+ ]
+}
