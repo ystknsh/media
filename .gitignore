@@ -131,3 +131,5 @@ promo/news_test/robot3d/models/
 promo/news_test/wagashi/wagashi-news.json
 promo/news_test/wagashi-tv/wagashi-tv.json
 promo/news_test/wagashi-tv/wagashi-v3.json
+promo/news_test/wagashi-tv/gen/
+promo/news_test/robot3d/probe-3d.json
